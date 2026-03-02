@@ -1,0 +1,91 @@
+[
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "plugin": {
+        "config": {
+          "attributes": {
+            "disable": true
+          },
+          "label": "req_lineCat",
+          "manifestPath": "nexxe.nextgen-multiselect-popup",
+          "multiSelectPopupConfig": {
+            "cdsDataModelId": "cdscategory",
+            "childCountMapField": "childCount",
+            "data": {
+              "fetchChildNodes": "getCategoryChildNodes",
+              "getLevelOneData": "getCategory",
+              "loadMore": "getCategoryLoadMore",
+              "searchInTree": "getSearchCategory"
+            },
+            "displayEntityCode": false,
+            "displayNameMapField": "displayName",
+            "entityCodeMapField": "id",
+            "events": {},
+            "idMapField": "id",
+            "isSelectAll": false,
+            "levelMapField": "level",
+            "lvlOnetotalCountMapField": "totalCount",
+            "nameMapField": "name",
+            "onlyLeafNodeSelectable": true,
+            "pageSize": 20,
+            "parentIdMapField": "parentId",
+            "popupHeading": "categorySliderHeaderName",
+            "responseDataMapField": "masterRecords",
+            "searchEnabled": true,
+            "searchPlaceholder": "Search...",
+            "selectedNodes": [],
+            "singleSelect": true
+          },
+          "onSelect": "updateCategoryForLine",
+          "pathForCategoryData": "category"
+        },
+        "manifestPath": "nexxe.p2p-line-category",
+        "scope": "this"
+      },
+      "type": "popup"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {}
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {}
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "plugin": {
+        "config": {
+          "body": {
+            "childConfig": {
+              "closeCallBack": "cancel",
+              "config": {},
+              "scope": "this"
+            },
+            "manifestPath": "nexxe.accounting-split"
+          },
+          "closeIcon": true,
+          "customFooter": {
+            "childConfig": {
+              "closeCallBack": "cancel",
+              "listenerId": "accounting-split-popup",
+              "scope": "this"
+            },
+            "manifestPath": "nexxe.standard-slider-footer"
+          },
+          "events": {
+            "close": "close"
+          },
+          "title": "Split",
+          "width": 6
+        },
+        "manifestPath": "nexxe.slider",
+        "scope": "this"
+      },
+      "type": "popup"
+    }
+  }
+]

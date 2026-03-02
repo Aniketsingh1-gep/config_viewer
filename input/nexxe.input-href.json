@@ -1,0 +1,1537 @@
+[
+  {
+    "capturedAt": "2026-03-02T10:02:46.508Z",
+    "config": {
+      "attachedConfig": {
+        "body": {
+          "childConfig": {
+            "displayName": "invoiceOtherCharges",
+            "name": "invoiceOtherCharges",
+            "refId": "9e40c193-1257-49f1-b0c7-53863542c655",
+            "routeName": "invoiceOtherCharges",
+            "viewType": "sliderForm"
+          }
+        },
+        "closeBlanket": true,
+        "closeIcon": true,
+        "customFooter": {
+          "childConfig": {
+            "closeCallBack": "cancel",
+            "listenerId": "p2p-taxes-charges-slider-grid-service",
+            "scope": "this"
+          },
+          "manifestPath": "nexxe.standard-slider-footer"
+        },
+        "customHeader": {
+          "childConfig": {}
+        },
+        "title": "OtherCharge",
+        "titleDataKey": "OtherCharge",
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "sliderPopup",
+          "url": "#/Invoice_workbench/test--invoice-start"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "add",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": 1,
+        "cssClasses": [],
+        "listIndex": 0,
+        "rowIndex": 0,
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.aggregatedOtherCharges",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-17060626169-field-17060627321",
+      "hash": "mm90dupszbnjp",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "OtherCharge",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-17060626169"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.508Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": ""
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 12,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentOrderDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openCustomPopup": "",
+        "openPopup": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Or(And(Equal(invoiceDetails.invoiceStatus.documentStatus, 1), Equal(invoiceDetails.invoiceSource, 10)),Equal(invoiceDetails.isMultiPOInvoice, true)), false, IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true))",
+          "id": "lipsldr15upvp",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16861362984.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceSource": {
+              "dataPath": "invoiceDetails.invoiceSource",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiPOInvoice": {
+              "dataPath": "invoiceDetails.isMultiPOInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-16861362984",
+      "hash": "mm90dups40fd9",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "orderNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "otherData": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.508Z",
+    "config": {
+      "attachedConfig": {
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "#/serviceconfirmation_details/14371ab3-6b34-4131-867e-309ca2757492"
+        },
+        "isTooltipVisible": false,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 17,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentServiceConfirmationDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceSourceDocumentType, 2), IfandElse(Or(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), Equal(invoiceDetails.isMultiSCInvoice, true)), false, true), false)",
+          "id": "m1gg9eg41f4p6",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceSourceDocumentType": {
+              "dataPath": "invoiceDetails.invoiceSourceDocumentType",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiSCInvoice": {
+              "dataPath": "invoiceDetails.isMultiSCInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "url": {
+            "defaultOutput": false,
+            "expression": "IfandElse(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId,Concatenate(Concatenate('#/',Concatenate(invoiceSourceDocumentUrl[Text(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId)],'/')),invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId),'')",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.attributes.hrefAttributes.url",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId",
+                "dataSrc": 0
+              },
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId",
+                "dataSrc": 0
+              },
+              "invoiceSourceDocumentUrl": {
+                "dataPath": "invoiceSourceDocumentUrl",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-17271829440",
+      "hash": "mm90dups0nydb",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "serviceConfirmationNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.508Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "https://quantumqc.gep.com/LeoSMB/v3/#/indirectOrder_order_details_030/491f55bb-fb83-4ed3-8409-deecaea70336"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 12,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentOrderDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openCustomPopup": "",
+        "openPopup": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Or(And(Equal(invoiceDetails.invoiceStatus.documentStatus, 1), Equal(invoiceDetails.invoiceSource, 10)),Equal(invoiceDetails.isMultiPOInvoice, true)), false, IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true))",
+          "id": "lipsldr15upvp",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16861362984.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceSource": {
+              "dataPath": "invoiceDetails.invoiceSource",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiPOInvoice": {
+              "dataPath": "invoiceDetails.isMultiPOInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-16861362984",
+      "hash": "mm90dups40fd9",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "orderNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "otherData": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.508Z",
+    "config": {
+      "attachedConfig": {
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "#/serviceconfirmation_details/14371ab3-6b34-4131-867e-309ca2757492"
+        },
+        "isTooltipVisible": false,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 17,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentServiceConfirmationDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceSourceDocumentType, 2), IfandElse(Or(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), Equal(invoiceDetails.isMultiSCInvoice, true)), false, true), false)",
+          "id": "m1gg9eg41f4p6",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceSourceDocumentType": {
+              "dataPath": "invoiceDetails.invoiceSourceDocumentType",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiSCInvoice": {
+              "dataPath": "invoiceDetails.isMultiSCInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "url": {
+            "defaultOutput": false,
+            "expression": "IfandElse(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId,Concatenate(Concatenate('#/',Concatenate(invoiceSourceDocumentUrl[Text(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId)],'/')),invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId),'')",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.attributes.hrefAttributes.url",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId",
+                "dataSrc": 0
+              },
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId",
+                "dataSrc": 0
+              },
+              "invoiceSourceDocumentUrl": {
+                "dataPath": "invoiceSourceDocumentUrl",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-17271829440",
+      "hash": "mm90dups0nydb",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "serviceConfirmationNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.508Z",
+    "config": {
+      "attachedConfig": {
+        "body": {
+          "childConfig": {
+            "displayName": "invoiceOtherCharges",
+            "name": "invoiceOtherCharges",
+            "refId": "9e40c193-1257-49f1-b0c7-53863542c655",
+            "routeName": "invoiceOtherCharges",
+            "viewType": "sliderForm"
+          }
+        },
+        "closeBlanket": true,
+        "closeIcon": true,
+        "customFooter": {
+          "childConfig": {
+            "closeCallBack": "cancel",
+            "listenerId": "p2p-taxes-charges-slider-grid-service",
+            "scope": "this"
+          },
+          "manifestPath": "nexxe.standard-slider-footer"
+        },
+        "customHeader": {
+          "childConfig": {}
+        },
+        "title": "OtherCharge",
+        "titleDataKey": "OtherCharge",
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "sliderPopup",
+          "url": "#/Invoice_workbench/test--invoice-start"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "add",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": 1,
+        "cssClasses": [],
+        "listIndex": 0,
+        "rowIndex": 0,
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.aggregatedOtherCharges",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-17060626169-field-17060627321",
+      "hash": "mm90dupszbnjp",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "OtherCharge",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-17060626169"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "https://quantumqc.gep.com/LeoSMB/v3/#/indirectOrder_order_details_030/491f55bb-fb83-4ed3-8409-deecaea70336"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 12,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentOrderDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openCustomPopup": "",
+        "openPopup": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Or(And(Equal(invoiceDetails.invoiceStatus.documentStatus, 1), Equal(invoiceDetails.invoiceSource, 10)),Equal(invoiceDetails.isMultiPOInvoice, true)), false, IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true))",
+          "id": "lipsldr15upvp",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16861362984.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceSource": {
+              "dataPath": "invoiceDetails.invoiceSource",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiPOInvoice": {
+              "dataPath": "invoiceDetails.isMultiPOInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-16861362984",
+      "hash": "mm90dups40fd9",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "orderNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "otherData": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attachedConfig": {
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "#/serviceconfirmation_details/14371ab3-6b34-4131-867e-309ca2757492"
+        },
+        "isTooltipVisible": false,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 17,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentServiceConfirmationDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceSourceDocumentType, 2), IfandElse(Or(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), Equal(invoiceDetails.isMultiSCInvoice, true)), false, true), false)",
+          "id": "m1gg9eg41f4p6",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceSourceDocumentType": {
+              "dataPath": "invoiceDetails.invoiceSourceDocumentType",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiSCInvoice": {
+              "dataPath": "invoiceDetails.isMultiSCInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "url": {
+            "defaultOutput": false,
+            "expression": "IfandElse(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId,Concatenate(Concatenate('#/',Concatenate(invoiceSourceDocumentUrl[Text(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId)],'/')),invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId),'')",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.attributes.hrefAttributes.url",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId",
+                "dataSrc": 0
+              },
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId",
+                "dataSrc": 0
+              },
+              "invoiceSourceDocumentUrl": {
+                "dataPath": "invoiceSourceDocumentUrl",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-17271829440",
+      "hash": "mm90dups0nydb",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "serviceConfirmationNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attachedConfig": {
+        "body": {
+          "childConfig": {
+            "displayName": "invoiceOtherCharges",
+            "name": "invoiceOtherCharges",
+            "refId": "9e40c193-1257-49f1-b0c7-53863542c655",
+            "routeName": "invoiceOtherCharges",
+            "viewType": "sliderForm"
+          }
+        },
+        "closeBlanket": true,
+        "closeIcon": true,
+        "customFooter": {
+          "childConfig": {
+            "closeCallBack": "cancel",
+            "listenerId": "p2p-taxes-charges-slider-grid-service",
+            "scope": "this"
+          },
+          "manifestPath": "nexxe.standard-slider-footer"
+        },
+        "customHeader": {
+          "childConfig": {}
+        },
+        "title": "OtherCharge",
+        "titleDataKey": "OtherCharge",
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "sliderPopup",
+          "url": "#/Invoice_workbench/test--invoice-start"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "add",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": 1,
+        "cssClasses": [],
+        "listIndex": 0,
+        "rowIndex": 0,
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.aggregatedOtherCharges",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-17060626169-field-17060627321",
+      "hash": "mm90dupszbnjp",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "OtherCharge",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-17060626169"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "https://quantumqc.gep.com/LeoSMB/v3/#/indirectOrder_order_details_030/491f55bb-fb83-4ed3-8409-deecaea70336"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 12,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentOrderDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openCustomPopup": "",
+        "openPopup": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Or(And(Equal(invoiceDetails.invoiceStatus.documentStatus, 1), Equal(invoiceDetails.invoiceSource, 10)),Equal(invoiceDetails.isMultiPOInvoice, true)), false, IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true))",
+          "id": "lipsldr15upvp",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16861362984.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceSource": {
+              "dataPath": "invoiceDetails.invoiceSource",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiPOInvoice": {
+              "dataPath": "invoiceDetails.isMultiPOInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-16861362984",
+      "hash": "mm90dups40fd9",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "orderNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "otherData": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attachedConfig": {
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "#/serviceconfirmation_details/14371ab3-6b34-4131-867e-309ca2757492"
+        },
+        "isTooltipVisible": false,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 17,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentServiceConfirmationDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceSourceDocumentType, 2), IfandElse(Or(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), Equal(invoiceDetails.isMultiSCInvoice, true)), false, true), false)",
+          "id": "m1gg9eg41f4p6",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceSourceDocumentType": {
+              "dataPath": "invoiceDetails.invoiceSourceDocumentType",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiSCInvoice": {
+              "dataPath": "invoiceDetails.isMultiSCInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "url": {
+            "defaultOutput": false,
+            "expression": "IfandElse(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId,Concatenate(Concatenate('#/',Concatenate(invoiceSourceDocumentUrl[Text(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId)],'/')),invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId),'')",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.attributes.hrefAttributes.url",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId",
+                "dataSrc": 0
+              },
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId",
+                "dataSrc": 0
+              },
+              "invoiceSourceDocumentUrl": {
+                "dataPath": "invoiceSourceDocumentUrl",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-17271829440",
+      "hash": "mm90dups0nydb",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "serviceConfirmationNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attachedConfig": {
+        "body": {
+          "childConfig": {
+            "displayName": "invoiceOtherCharges",
+            "name": "invoiceOtherCharges",
+            "refId": "9e40c193-1257-49f1-b0c7-53863542c655",
+            "routeName": "invoiceOtherCharges",
+            "viewType": "sliderForm"
+          }
+        },
+        "closeBlanket": true,
+        "closeIcon": true,
+        "customFooter": {
+          "childConfig": {
+            "closeCallBack": "cancel",
+            "listenerId": "p2p-taxes-charges-slider-grid-service",
+            "scope": "this"
+          },
+          "manifestPath": "nexxe.standard-slider-footer"
+        },
+        "customHeader": {
+          "childConfig": {}
+        },
+        "title": "OtherCharge",
+        "titleDataKey": "OtherCharge",
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "sliderPopup",
+          "url": "#/Invoice_workbench/test--invoice-start"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "add",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": 1,
+        "cssClasses": [],
+        "listIndex": 0,
+        "rowIndex": 0,
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.aggregatedOtherCharges",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-17060626169-field-17060627321",
+      "hash": "mm90dupszbnjp",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "OtherCharge",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-17060626169"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": ""
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 12,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentOrderDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openCustomPopup": "",
+        "openPopup": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Or(And(Equal(invoiceDetails.invoiceStatus.documentStatus, 1), Equal(invoiceDetails.invoiceSource, 10)),Equal(invoiceDetails.isMultiPOInvoice, true)), false, IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true))",
+          "id": "lipsldr15upvp",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16861362984.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceSource": {
+              "dataPath": "invoiceDetails.invoiceSource",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiPOInvoice": {
+              "dataPath": "invoiceDetails.isMultiPOInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-16861362984",
+      "hash": "mm90eoblebijp",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "orderNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "otherData": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attachedConfig": {
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "redirect",
+          "url": "#/serviceconfirmation_details/14371ab3-6b34-4131-867e-309ca2757492"
+        },
+        "isTooltipVisible": false,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 17,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "fulfillmentServiceConfirmationDetails.fulfillmentDocumentNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceSourceDocumentType, 2), IfandElse(Or(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), Equal(invoiceDetails.isMultiSCInvoice, true)), false, true), false)",
+          "id": "m1gg9eg41f4p6",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceSourceDocumentType": {
+              "dataPath": "invoiceDetails.invoiceSourceDocumentType",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isMultiSCInvoice": {
+              "dataPath": "invoiceDetails.isMultiSCInvoice",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "url": {
+            "defaultOutput": false,
+            "expression": "IfandElse(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId,Concatenate(Concatenate('#/',Concatenate(invoiceSourceDocumentUrl[Text(invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId)],'/')),invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId),'')",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-17271829440.attributes.hrefAttributes.url",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentId",
+                "dataSrc": 0
+              },
+              "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId": {
+                "dataPath": "invoiceDetails.fulfillmentServiceConfirmationDetails.fulfillmentDocumentSubTypeAppId",
+                "dataSrc": 0
+              },
+              "invoiceSourceDocumentUrl": {
+                "dataPath": "invoiceSourceDocumentUrl",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-17271829440",
+      "hash": "mm90eobl6xq3e",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "serviceConfirmationNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attachedConfig": {
+        "body": {
+          "childConfig": {
+            "displayName": "invoiceOtherCharges",
+            "name": "invoiceOtherCharges",
+            "refId": "9e40c193-1257-49f1-b0c7-53863542c655",
+            "routeName": "invoiceOtherCharges",
+            "viewType": "sliderForm"
+          }
+        },
+        "closeBlanket": true,
+        "closeIcon": true,
+        "customFooter": {
+          "childConfig": {
+            "closeCallBack": "cancel",
+            "listenerId": "p2p-taxes-charges-slider-grid-service",
+            "scope": "this"
+          },
+          "manifestPath": "nexxe.standard-slider-footer"
+        },
+        "customHeader": {
+          "childConfig": {}
+        },
+        "title": "OtherCharge",
+        "titleDataKey": "OtherCharge",
+        "width": "6"
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": false,
+        "hrefAttributes": {
+          "dataType": "dynamic",
+          "displayName": "",
+          "target": "blank",
+          "type": "sliderPopup",
+          "url": "#/Invoice_workbench/test--invoice-start"
+        },
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "add",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": 1,
+        "cssClasses": [],
+        "listIndex": 0,
+        "rowIndex": 0,
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.aggregatedOtherCharges",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-17060626169-field-17060627321",
+      "hash": "mm90eoblykhvy",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "OtherCharge",
+      "managerId": "widgetManager",
+      "manifestPath": "input-href",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-17060626169"
+    }
+  }
+]

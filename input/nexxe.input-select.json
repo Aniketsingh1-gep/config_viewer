@@ -1,0 +1,470 @@
+[
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": true,
+        "dataKey": "code",
+        "disable": false,
+        "displayKey": "displayText",
+        "isEditable": [],
+        "isSearchEnabled": true,
+        "isShown": [],
+        "keyEventFocus": false,
+        "options": [
+          {
+            "code": "B8BCC8D5-77C5-474B-A56E-8C3D63E40074",
+            "displayText": "Requisition: REQ-2026.096667",
+            "displayType": "Requisition",
+            "name": "N/A",
+            "number": "REQ-2026.096667",
+            "status": "Draft",
+            "subtypeAppId": "5d07b5a0-772f-487e-b2f5-3d47607e2dc8",
+            "type": "REQ"
+          }
+        ],
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": 6,
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 1,
+        "rowIndex": 1,
+        "subType": "text",
+        "tabIndex": 0
+      },
+      "data": "dropdownsField.dropdownDocumentFlip",
+      "dataModelId": "dropdownsFlipActionsModelId",
+      "events": {
+        "ngModelChange": "onFilpDropdownChange"
+      },
+      "fieldId": "documentFlipDropdown",
+      "hash": "mm90c5fcsoh4a",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "Document",
+      "managerId": "DocumentFlipDropdownActionsWidget",
+      "manifestPath": "nexxe.input-select@latest",
+      "type": "select",
+      "widgetId": "documentFlipDropdownWidgetId"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.508Z",
+    "config": {
+      "attachedConfig": {
+        "codeType": "",
+        "dataPath": "contractType",
+        "endPointId": "getContractType"
+      },
+      "attributes": {
+        "clearDropdownValue": false,
+        "clickEventFocus": true,
+        "dataKey": "id",
+        "dataType": "object",
+        "disable": false,
+        "displayKey": "name",
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "options": [],
+        "optionsMapping": {}
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "listIndex": 1,
+        "rowIndex": 0,
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "contractTypeDetails.contractType",
+      "dataModelId": "documentrules",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": false,
+          "expression": "Or(Equal(documentrules.isContractTermsGridVisible, true), Equal(documentrules.isContractSelectionDisabled, true))",
+          "id": "lmzw8spmucd78",
+          "output": {
+            "dataPath": "widgetManager.widget-16934574258.widget-16934574258-field-16934575860.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "boolean",
+          "params": {
+            "documentrules.isContractSelectionDisabled": {
+              "dataPath": "documentrules.isContractSelectionDisabled",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "documentrules.isContractTermsGridVisible": {
+              "dataPath": "documentrules.isContractTermsGridVisible",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "isVisible": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Equal(rfxGetHeaderData.domainSettings.hideContractSubtype, true), false, NotEqual(documentrules.contractTypeDetails.contractType.name, ''))",
+            "id": "subContractType-isVisible-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16934574258.widget-16934574258-field-16934575791.isVisible",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documentrules.contractTypeDetails.contractType": {
+                "dataPath": "documentrules.contractTypeDetails.contractType",
+                "dataSrc": 0
+              },
+              "documentrules.contractTypeDetails.contractType.name": {
+                "dataPath": "documentrules.contractTypeDetails.contractType.name",
+                "dataSrc": 0
+              },
+              "rfxGetHeaderData.domainSettings.hideContractSubtype": {
+                "dataPath": "rfxGetHeaderData.domainSettings.hideContractSubtype",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16934574258-field-16934575860",
+      "hash": "mm90cgzbxz3ze",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "rfx_contractType",
+      "managerId": "widgetManager",
+      "manifestPath": "input-select",
+      "staticOptions": false,
+      "type": "select",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16934574258"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "IButtonConfig": {
+        "api": {},
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "dmInfotipConfig": {
+          "delay": 0,
+          "html": "",
+          "iconLabel": "",
+          "message": "taxIdentificationNumberIMessage",
+          "position": "top",
+          "type": "iText"
+        },
+        "iButtonMsg": "taxIdentificationNumberIMessage",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      },
+      "attachedConfig": {
+        "codeType": "",
+        "dataPath": "",
+        "endPointId": "",
+        "entityName": "supplierTaxIdentificationNumber"
+      },
+      "attributes": {
+        "clearDropdownValue": false,
+        "clickEventFocus": true,
+        "dataKey": "taxIdentificationNumber",
+        "dataType": "object",
+        "disable": false,
+        "displayKey": "taxIdentificationNumber",
+        "isSearchEnabled": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "options": [
+          {
+            "taxIdentificationNumber": ""
+          }
+        ],
+        "optionsMapping": {}
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": "",
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 19,
+        "rowIndex": "5",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "calculatedValue": "",
+      "data": "invoiceBasicDetails.supplierTaxIdentificationNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "API",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceStatus.documentStatus, 1), false, true)",
+          "id": "mcj687xdy6gfg",
+          "output": {
+            "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16601235874.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "message": {
+          "defaultOutput": "",
+          "executionType": 1,
+          "expression": "IfandElse(invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber, '', '')",
+          "id": "mcj69y68qq4ws",
+          "output": {
+            "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16601235874.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "taxIdentificationNumberAction1": {
+            "defaultOutput": [
+              {
+                "taxIdentificationNumber": ""
+              }
+            ],
+            "expression": "ExtractData(IfandElse(invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber,[{'taxIdentificationNumber': invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber}],[{'taxIdentificationNumber': ''}]))",
+            "order": 0,
+            "output": {
+              "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16601235874.attributes.options",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceBasicDetails.taxIdentificationCountry": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.taxIdentificationCountry",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16601116336-field-16601235874",
+      "hash": "mm90eobl0y9r2",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "supplierTaxIdentificationNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-select",
+      "staticOptions": false,
+      "type": "select",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16601116336"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:05:07.894Z",
+    "config": {
+      "IButtonConfig": {
+        "api": {},
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "dmInfotipConfig": {
+          "delay": 0,
+          "html": "",
+          "iconLabel": "",
+          "message": "taxIdentificationNumberIMessage",
+          "position": "top",
+          "type": "iText"
+        },
+        "iButtonMsg": "taxIdentificationNumberIMessage",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      },
+      "attachedConfig": {
+        "codeType": "",
+        "dataPath": "",
+        "endPointId": "",
+        "entityName": "supplierTaxIdentificationNumber"
+      },
+      "attributes": {
+        "clearDropdownValue": false,
+        "clickEventFocus": true,
+        "dataKey": "taxIdentificationNumber",
+        "dataType": "object",
+        "disable": false,
+        "displayKey": "taxIdentificationNumber",
+        "isSearchEnabled": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "options": [
+          {
+            "taxIdentificationNumber": ""
+          }
+        ],
+        "optionsMapping": {}
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": "",
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 19,
+        "rowIndex": "5",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "calculatedValue": "",
+      "data": "invoiceBasicDetails.supplierTaxIdentificationNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "API",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceStatus.documentStatus, 1), false, true)",
+          "id": "mcj687xdy6gfg",
+          "output": {
+            "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16601235874.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "message": {
+          "defaultOutput": "",
+          "executionType": 1,
+          "expression": "IfandElse(invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber, '', '')",
+          "id": "mcj69y68qq4ws",
+          "output": {
+            "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16601235874.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "taxIdentificationNumberAction1": {
+            "defaultOutput": [
+              {
+                "taxIdentificationNumber": ""
+              }
+            ],
+            "expression": "ExtractData(IfandElse(invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber,[{'taxIdentificationNumber': invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber}],[{'taxIdentificationNumber': ''}]))",
+            "order": 0,
+            "output": {
+              "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16601235874.attributes.options",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.supplierTaxIdentificationNumber.taxIdentificationNumber",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceBasicDetails.taxIdentificationCountry": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.taxIdentificationCountry",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16601116336-field-16601235874",
+      "hash": "mm90eobl0y9r2",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "supplierTaxIdentificationNumber",
+      "managerId": "widgetManager",
+      "manifestPath": "input-select",
+      "staticOptions": false,
+      "type": "select",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16601116336"
+    }
+  }
+]

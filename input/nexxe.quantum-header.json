@@ -1,0 +1,2942 @@
+[
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T08:33:23.885Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T08:33:23.885Z",
+    "config": {
+      "config": {
+        "centerModuleConfig": {
+          "focus": true,
+          "placeholder": "Search",
+          "recentSearch": false,
+          "searchResultPage": {
+            "Url": "/imdm-search/items/",
+            "autoSuggestUrl": "/imdm-viewitem/viewitem/",
+            "external": false
+          },
+          "suggestedProductSearch": false,
+          "suggestedSearch": false,
+          "type": "AS"
+        },
+        "centerModuleManifestPath": null,
+        "clientLogoImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/images/clients/logos/70022201.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        },
+        "productNavigationConfig": {
+          "productDetailsConfig": {
+            "rows": [
+              {
+                "events": {
+                  "click": ""
+                },
+                "iconBgClass": "color-blue",
+                "iconConfig": {
+                  "cssClass": "",
+                  "isSVG": false
+                },
+                "id": "smart",
+                "label": "DM_IM_HEADER",
+                "labelCssClass": "color-grey",
+                "link": {
+                  "innerRouting": false,
+                  "url": "https://smartqc.gep.com/"
+                }
+              }
+            ]
+          },
+          "productNavConfig": {
+            "cardPerRow": 1,
+            "cardShape": "rect",
+            "deletable": false,
+            "events": {
+              "delete": ""
+            }
+          },
+          "productNavDetailsAPIurl": "/api/v1/User/GetNavigationDetails",
+          "productNavHeadertext": "GEP Products",
+          "viewAllLink": {
+            "label": "View All",
+            "onClick": "viewAll",
+            "visible": false
+          }
+        },
+        "rightHeaderIcons": [
+          {
+            "events": {
+              "onClick": "loadSearch"
+            },
+            "icons": {
+              "cssClass": "icon_search",
+              "icon": "#icon_SearchPlaceholder",
+              "isSVG": true
+            },
+            "id": "search",
+            "isVisible": false,
+            "name": ""
+          }
+        ],
+        "toggleSideMenuIcon": {},
+        "userProfileConfig": {
+          "userProfileHeaderConfig": {
+            "email": "",
+            "icons": {
+              "cssClass": "iconSVG",
+              "icon": "https://static-smartdev.gep.com/smartcontent/workspace/shared/theme/images/user_default_SMALL.PNG",
+              "isSVG": false
+            },
+            "initials": "",
+            "name": ""
+          },
+          "userProfileItemList": [
+            {
+              "events": {
+                "onClick": "onMyProfile"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_MyProfile",
+                "isSVG": true
+              },
+              "name": "My Profile"
+            },
+            {
+              "events": {
+                "onClick": "onHelpCenter"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Support",
+                "isSVG": true
+              },
+              "name": "Help Center"
+            },
+            {
+              "events": {
+                "onClick": "onLogout"
+              },
+              "icons": {
+                "cssClass": "logoutIcon",
+                "icon": "#icon_Logout",
+                "isSVG": true
+              },
+              "name": "Logout"
+            }
+          ],
+          "userProfileManifestPath": "nexxe.user-profile@0.0.0-next.2/user-profile-component"
+        },
+        "userProfileImage": {
+          "events": {
+            "onClick": ""
+          },
+          "icons": {
+            "cssClass": "",
+            "icon": "https://static-quantumqc.gep.com/nexxe/assets/theme/images/user_default_SMALL.png",
+            "isSVG": false
+          },
+          "id": "",
+          "name": ""
+        }
+      }
+    }
+  }
+]

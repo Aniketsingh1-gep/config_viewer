@@ -1,0 +1,193 @@
+[
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "attachedConfig": {
+        "isConversionNeeded": ""
+      },
+      "attributes": {
+        "clickEventFocus": false,
+        "conversionDatePath": "",
+        "disable": false,
+        "fromCurrencyPath": "documents.basicDetail.currency.code",
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxPrecision": 2,
+        "maxValue": 99999999999,
+        "minPrecision": 0,
+        "minValue": 0,
+        "placeholder": "",
+        "restrictMinus": false,
+        "setZeroWhenEmpty": false,
+        "textAlign": "left",
+        "toCurrencyPath": ""
+      },
+      "behaviour": {
+        "autoRender": true,
+        "colspan": 1,
+        "cssClasses": [],
+        "listIndex": 5,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "basicDetail.eventValueCurrency",
+      "dataModelId": "documents",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openCustomPopup": "",
+        "openPopup": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(And(Equal(documents.actions.editBasicDetails, true), Equal(documents.actions.editEventValue, true)), false, true)",
+          "id": "lkcd4ym8qxs5u",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16789981149.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "documents.actions.editBasicDetails": {
+              "dataPath": "documents.actions.editBasicDetails",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "documents.actions.editEventValue": {
+              "dataPath": "documents.actions.editEventValue",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "isMandatory": {
+          "defaultOutput": true,
+          "expression": "IfandElse(NotEqual(rfxGetHeaderData.rfxSourceType, 'RequisitionFlip'), true, NotEqual(rfxGetHeaderData.domainSettings.enable3BBRFxType, true))",
+          "id": "lgavfpqcju4r5",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16789981149.isMandatory",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "rfxGetHeaderData.domainSettings.enable3BBRFxType": {
+              "dataPath": "rfxGetHeaderData.domainSettings.enable3BBRFxType",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "rfxGetHeaderData.rfxSourceType": {
+              "dataPath": "rfxGetHeaderData.rfxSourceType",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "NotEqual(rfxGetHeaderData.isSupplier, true)",
+          "id": "lfry87xywo8j9",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16789981149.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "rfxGetHeaderData.isSupplier": {
+              "dataPath": "rfxGetHeaderData.isSupplier",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "message": {
+            "expression": "IfandElse(IfandElse(NotEqual(rfxGetHeaderData.rfxSourceType, 'RequisitionFlip'), true, NotEqual(rfxGetHeaderData.domainSettings.enable3BBRFxType, true)),IfandElse(Or(Equal(documents.basicDetail.eventValueCurrency.value,''),Equal(documents.basicDetail.eventValueCurrency.value,null)),'rfx_enterEventValueMessage',''),'')",
+            "id": "widget-16705791272-widget-16705791272-field-16789981149-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16789981149.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.eventValueCurrency.value": {
+                "dataPath": "documents.basicDetail.eventValueCurrency.value",
+                "dataSrc": 0
+              },
+              "rfxGetHeaderData.domainSettings.enable3BBRFxType": {
+                "dataPath": "rfxGetHeaderData.domainSettings.enable3BBRFxType",
+                "dataSrc": 0,
+                "dataType": "string"
+              },
+              "rfxGetHeaderData.rfxSourceType": {
+                "dataPath": "rfxGetHeaderData.rfxSourceType",
+                "dataSrc": 0,
+                "dataType": "string"
+              }
+            }
+          }
+        },
+        "ngOnInit": {},
+        "onDeactivate": {
+          "message": {
+            "expression": "IfandElse(IfandElse(NotEqual(rfxGetHeaderData.rfxSourceType, 'RequisitionFlip'), true, NotEqual(rfxGetHeaderData.domainSettings.enable3BBRFxType, true)),IfandElse(Or(Equal(documents.basicDetail.eventValueCurrency.value,''),Equal(documents.basicDetail.eventValueCurrency.value,null)),'rfx_enterEventValueMessage',''),'')",
+            "id": "widget-16705791272-widget-16705791272-field-16789981149-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16789981149.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.eventValueCurrency.value": {
+                "dataPath": "documents.basicDetail.eventValueCurrency.value",
+                "dataSrc": 0
+              },
+              "rfxGetHeaderData.domainSettings.enable3BBRFxType": {
+                "dataPath": "rfxGetHeaderData.domainSettings.enable3BBRFxType",
+                "dataSrc": 0,
+                "dataType": "string"
+              },
+              "rfxGetHeaderData.rfxSourceType": {
+                "dataPath": "rfxGetHeaderData.rfxSourceType",
+                "dataSrc": 0,
+                "dataType": "string"
+              }
+            }
+          }
+        },
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16705791272-field-16789981149",
+      "hash": "mm90cgzb9z0tm",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "rfx_eventValue",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-price",
+      "selectedDataType": {
+        "id": "DM",
+        "name": "Domain Model"
+      },
+      "type": "price",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16705791272"
+    }
+  }
+]

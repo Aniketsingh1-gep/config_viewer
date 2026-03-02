@@ -1,0 +1,114 @@
+[
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "config": {
+        "attachedConfig": {
+          "apiEndPoints": [],
+          "errorGrids": [
+            {
+              "gridId": "manageInvoiceLineGrid",
+              "id": "1699358774695"
+            },
+            {
+              "gridId": "manageAccountingGrid",
+              "id": "1699358780734"
+            },
+            {
+              "gridId": "taxExceptionGrid",
+              "id": "1699358785988"
+            }
+          ],
+          "resetCurrentErrorIndex": false
+        },
+        "behaviour": {
+          "isCollapsible": true,
+          "isDraggable": true,
+          "isEagerlyLoaded": true,
+          "isExpanded": true,
+          "isLeftNavEnabled": false,
+          "isOptional": false,
+          "isOptionalMenuEnabled": false,
+          "isSelected": false,
+          "isShown": [],
+          "isSpinning": false,
+          "isSwitchable": false,
+          "isTitleHidden": true,
+          "isTransparent": false,
+          "isVisible": true,
+          "isVisibleInSectionOnly": true,
+          "isWidgetSticky": true,
+          "listIndex": 0,
+          "pinnedAt": "top",
+          "removeSpacing": true,
+          "removeWidgetMargin": false
+        },
+        "children": [],
+        "defaultInputManifestPath": "nexxe.input",
+        "expressions": {},
+        "hash": "mm8frhcii3i5j",
+        "managerId": "widgetManager",
+        "manifestPath": "nexxe.error-section",
+        "title": "Errors Section",
+        "type": "standard",
+        "widgetId": "widget-16993587523"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "attachedConfig": {
+          "apiEndPoints": [],
+          "errorGrids": [
+            {
+              "gridId": "manageInvoiceLineGrid",
+              "id": "1699358774695"
+            },
+            {
+              "gridId": "manageAccountingGrid",
+              "id": "1699358780734"
+            },
+            {
+              "gridId": "taxExceptionGrid",
+              "id": "1699358785988"
+            }
+          ],
+          "resetCurrentErrorIndex": false
+        },
+        "behaviour": {
+          "isCollapsible": true,
+          "isDraggable": true,
+          "isEagerlyLoaded": true,
+          "isExpanded": true,
+          "isLeftNavEnabled": false,
+          "isOptional": false,
+          "isOptionalMenuEnabled": false,
+          "isSelected": false,
+          "isShown": [],
+          "isSpinning": false,
+          "isSwitchable": false,
+          "isTitleHidden": true,
+          "isTransparent": false,
+          "isVisible": true,
+          "isVisibleInSectionOnly": true,
+          "isWidgetSticky": true,
+          "listIndex": 0,
+          "pinnedAt": "top",
+          "removeSpacing": true,
+          "removeWidgetMargin": false
+        },
+        "children": [],
+        "defaultInputManifestPath": "nexxe.input",
+        "expressions": {},
+        "hash": "mm8frhcii3i5j",
+        "managerId": "widgetManager",
+        "manifestPath": "nexxe.error-section",
+        "title": "Errors Section",
+        "type": "standard",
+        "widgetId": "widget-16993587523"
+      }
+    }
+  }
+]

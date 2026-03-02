@@ -1,0 +1,442 @@
+[
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "config": {
+        "body": {
+          "childConfig": {
+            "behaviour": {},
+            "cardsConfig": {},
+            "expressions": {},
+            "flexLayoutConfig": {
+              "additionalAppearance": null,
+              "container": {
+                "additionalAppearance": null,
+                "background": null,
+                "backgroundHeight": null,
+                "children": [
+                  "widget-17060616559"
+                ],
+                "childrenType": "widgets",
+                "direction": "column",
+                "height": null,
+                "margin": null,
+                "padding": null,
+                "width": null
+              },
+              "hideBreadcrumb": false
+            },
+            "groupsConfig": {
+              "groups": []
+            },
+            "hash": "kwcfogflz3caq",
+            "layout": "flexible",
+            "managerId": "widgetManager-1706061114270",
+            "tabsConfig": {},
+            "widgets": [
+              {
+                "attachedConfig": {
+                  "apiEndPoints": []
+                },
+                "behaviour": {
+                  "isCollapsible": false,
+                  "isDraggable": true,
+                  "isEagerlyLoaded": true,
+                  "isExpanded": true,
+                  "isLeftNavEnabled": false,
+                  "isOptional": false,
+                  "isOptionalMenuEnabled": false,
+                  "isSelected": false,
+                  "isShown": [],
+                  "isSpinning": false,
+                  "isSwitchable": false,
+                  "isTitleHidden": false,
+                  "isTransparent": false,
+                  "isVisible": true,
+                  "isWidgetSticky": false,
+                  "listIndex": 0,
+                  "pinnedAt": "top",
+                  "removeSpacing": false,
+                  "removeWidgetMargin": false
+                },
+                "children": [
+                  {
+                    "attachedConfig": {
+                      "showTabs": false,
+                      "wrapperList": [
+                        {
+                          "config": {
+                            "gridConfig": {
+                              "columnDefs": [
+                                {
+                                  "cell": "[{\"type\":\"renderer\",\"manifestPath\":\"nexxe.grid-cell-renderer@latest\",\"params\":{\"config\":{}}}]",
+                                  "cellClass": "",
+                                  "cellFunctions": {
+                                    "cellClass": "lineCheckboxCheck"
+                                  },
+                                  "cellValueChanged": "",
+                                  "checkboxSelection": true,
+                                  "columnIndex": 0,
+                                  "editable": true,
+                                  "field": "checkbox_pm",
+                                  "headerCheckboxSelection": false,
+                                  "headerClass": "ag-header-cell-no-border-pm",
+                                  "headerName": "Select",
+                                  "headerTooltip": "Select",
+                                  "hide": false,
+                                  "id": "default_col_1",
+                                  "menuTabs": [],
+                                  "pinned": "left",
+                                  "resizable": false,
+                                  "rowGroup": false,
+                                  "sortable": false,
+                                  "width": "70"
+                                },
+                                {
+                                  "cell": "[{\"type\":\"renderer\",\"manifestPath\":\"nexxe.grid-cell-renderer@latest\",\"params\":{\"config\":{}}},{\"type\":\"editor\",\"manifestPath\":\"nexxe.grid-autocomplete@latest\",\"params\":{\"select\":{\"cdsEndpoint\":\"getChargeTypeGlobalCodes\",\"dataPath\":[\"returnValue\",\"masterRecords\"],\"dataKey\":\"name\",\"displayKey\":\"name\",\"isCustomTextEnabled\":false,\"event\":{\"onselect\":\"onChargeItemFieldChange\"}}}}]",
+                                  "cellClass": "",
+                                  "cellFunctions": {
+                                    "cellClass": "lineCheckboxCheck"
+                                  },
+                                  "cellValueChanged": "",
+                                  "checkboxSelection": false,
+                                  "columnIndex": 1,
+                                  "editable": true,
+                                  "field": "chargeType.name",
+                                  "headerName": "chargeType",
+                                  "headerTooltip": "",
+                                  "hide": false,
+                                  "id": "default_col_2",
+                                  "menuTabs": [],
+                                  "rowGroup": false,
+                                  "sortable": true,
+                                  "width": "200"
+                                },
+                                {
+                                  "cell": "[{\"type\":\"renderer\",\"manifestPath\":\"nexxe.grid-cell-renderer@latest\",\"params\":{\"config\":{}}},{\"type\":\"editor\",\"manifestPath\":\"nexxe.grid-autocomplete@latest\",\"params\":{\"select\":{\"cdsEndpoint\":\"getChargeBasisGlobalCodes\",\"dataPath\":[\"returnValue\",\"masterRecords\"],\"dataKey\":\"name\",\"displayKey\":\"name\",\"isCustomTextEnabled\":false,\"event\":{\"onselect\":\"onChargeItemFieldChange\"}}}}]",
+                                  "cellClass": "",
+                                  "cellFunctions": {
+                                    "cellClass": "lineCheckboxCheck"
+                                  },
+                                  "cellValueChanged": {
+                                    "eventId": "",
+                                    "eventName": ""
+                                  },
+                                  "checkboxSelection": false,
+                                  "columnIndex": 2,
+                                  "editable": true,
+                                  "events": {
+                                    "cellValueChanged": {
+                                      "eventId": "",
+                                      "eventName": ""
+                                    }
+                                  },
+                                  "field": "chargeBasis.name",
+                                  "filter": "",
+                                  "headerCheckboxSelection": false,
+                                  "headerClass": "",
+                                  "headerName": "chargeBasis",
+                                  "headerTooltip": "",
+                                  "hide": false,
+                                  "id": "1706061817344",
+                                  "isMandatory": false,
+                                  "menuTabs": [],
+                                  "pinned": "none",
+                                  "resizable": false,
+                                  "rowDrag": false,
+                                  "rowGroup": false,
+                                  "sortable": true,
+                                  "suppressMenu": false,
+                                  "tooltipField": "",
+                                  "unSortIcon": false,
+                                  "validation": [],
+                                  "valueGetter": "",
+                                  "width": "200"
+                                },
+                                {
+                                  "cell": "[{\"type\":\"renderer\",\"manifestPath\":\"nexxe.grid-cell-renderer\",\"params\":{\"config\":{\"rendererDataType\":\"numeric\",\"maxPrecession\":2,\"minPrecession\":2}}},{\"type\":\"editor\",\"manifestPath\":\"nexxe.grid-numeric\",\"params\":{\"config\":{\"attributes\":{\"maxPrecision\":2,\"minPrecision\":2,\"minValue\":0,\"maxValue\":9999999999,\"restrictMinus\":true},\"events\":{\"onChange\":\"\",\"onBlur\":\"onChargeValueChange\"}}}}]",
+                                  "cellClass": "",
+                                  "cellFunctions": {
+                                    "cellClass": "lineCheckboxCheck"
+                                  },
+                                  "cellValueChanged": {
+                                    "eventId": "",
+                                    "eventName": ""
+                                  },
+                                  "checkboxSelection": false,
+                                  "columnIndex": 3,
+                                  "editable": true,
+                                  "events": {
+                                    "cellValueChanged": {
+                                      "eventId": "",
+                                      "eventName": ""
+                                    }
+                                  },
+                                  "field": "chargeValue",
+                                  "filter": "",
+                                  "headerCheckboxSelection": false,
+                                  "headerClass": "",
+                                  "headerName": "chargeValue",
+                                  "headerTooltip": "",
+                                  "hide": false,
+                                  "id": "1706061828183",
+                                  "isMandatory": false,
+                                  "menuTabs": [],
+                                  "pinned": "none",
+                                  "resizable": false,
+                                  "rowDrag": false,
+                                  "rowGroup": false,
+                                  "sortable": true,
+                                  "suppressMenu": false,
+                                  "tooltipField": "",
+                                  "unSortIcon": false,
+                                  "validation": [],
+                                  "valueGetter": "",
+                                  "width": "200"
+                                },
+                                {
+                                  "cell": "[{\"type\":\"renderer\",\"manifestPath\":\"nexxe.grid-cell-renderer\",\"params\":{\"config\":{\"rendererDataType\":\"numeric\",\"maxPrecession\":2,\"minPrecession\":2}}}]",
+                                  "cellClass": "",
+                                  "cellFunctions": {},
+                                  "cellValueChanged": {
+                                    "eventId": "",
+                                    "eventName": ""
+                                  },
+                                  "checkboxSelection": false,
+                                  "columnIndex": 4,
+                                  "editable": false,
+                                  "events": {
+                                    "cellValueChanged": {
+                                      "eventId": "",
+                                      "eventName": ""
+                                    }
+                                  },
+                                  "field": "chargeTotal",
+                                  "filter": "",
+                                  "headerCheckboxSelection": false,
+                                  "headerClass": "",
+                                  "headerName": "chargeTotal",
+                                  "headerTooltip": "",
+                                  "hide": false,
+                                  "id": "1706061840181",
+                                  "isMandatory": false,
+                                  "menuTabs": [],
+                                  "pinned": "none",
+                                  "resizable": false,
+                                  "rowDrag": false,
+                                  "rowGroup": false,
+                                  "sortable": true,
+                                  "suppressMenu": false,
+                                  "tooltipField": "",
+                                  "unSortIcon": false,
+                                  "validation": [],
+                                  "valueGetter": "",
+                                  "width": "200"
+                                },
+                                {
+                                  "cell": "[{\"type\":\"renderer\",\"manifestPath\":\"nexxe.grid-cell-renderer@latest\",\"params\":{\"config\":{}}}]",
+                                  "cellClass": "",
+                                  "cellFunctions": {},
+                                  "cellValueChanged": {
+                                    "eventId": "",
+                                    "eventName": ""
+                                  },
+                                  "checkboxSelection": false,
+                                  "columnIndex": 5,
+                                  "editable": true,
+                                  "events": {
+                                    "cellValueChanged": {
+                                      "eventId": "",
+                                      "eventName": ""
+                                    }
+                                  },
+                                  "field": "chargeGroup",
+                                  "filter": "",
+                                  "headerCheckboxSelection": false,
+                                  "headerClass": "",
+                                  "headerName": "chargeGroup",
+                                  "headerTooltip": "",
+                                  "hide": true,
+                                  "id": "1712741198752",
+                                  "isMandatory": false,
+                                  "menuTabs": [],
+                                  "pinned": "none",
+                                  "resizable": false,
+                                  "rowDrag": false,
+                                  "rowGroup": false,
+                                  "sortable": true,
+                                  "suppressMenu": false,
+                                  "tooltipField": "",
+                                  "unSortIcon": false,
+                                  "validation": [],
+                                  "valueGetter": "",
+                                  "width": "200"
+                                }
+                              ],
+                              "dataModelId": "otherCharges",
+                              "gridEvents": {},
+                              "gridName": "",
+                              "gridOptions": {
+                                "cacheBlockSize": 100,
+                                "domLayout": "normal",
+                                "enableCellTextSelection": true,
+                                "enablePersistence": false,
+                                "headerHeight": 40,
+                                "hidePaginationPanel": false,
+                                "overlayLoadingTemplateWithLocaleKey": "",
+                                "overlayNoRowsTemplateWithLocaleKey": "",
+                                "pagination": true,
+                                "paginationAutoPageSize": false,
+                                "paginationPageSize": 5,
+                                "rowHeight": 40,
+                                "rowSelection": "multiple",
+                                "singleClickEdit": true,
+                                "stopEditingWhenGridLosesFocus": true,
+                                "suppressContextMenu": true,
+                                "suppressCsvExport": true,
+                                "suppressExcelExport": true,
+                                "suppressMenuHide": true,
+                                "suppressPaginationPanel": true
+                              },
+                              "masterDetail": false,
+                              "rowData": [],
+                              "rowModelType": "clientSide"
+                            },
+                            "gridManifestPath": "nexxe.ag-grid-nex",
+                            "toolPlugins": [
+                              {
+                                "config": {
+                                  "buttonConfig": {
+                                    "ariaLabel": "AddCharge",
+                                    "disable": false,
+                                    "flat": true,
+                                    "icon": {
+                                      "cssClass": "",
+                                      "icon": "#icon_CirclePlus",
+                                      "isSVG": true
+                                    },
+                                    "isFloating": false,
+                                    "styleClass": "",
+                                    "title": "AddCharge",
+                                    "visible": true,
+                                    "whiteSecondaryBtn": true
+                                  },
+                                  "callbackMethod": "addCharge"
+                                },
+                                "expressions": {},
+                                "group": "right",
+                                "isVisible": true,
+                                "manifestPath": "nexxe.p2p-taxes-charges",
+                                "order": "",
+                                "toolId": "1706062268830"
+                              },
+                              {
+                                "config": {
+                                  "buttonConfig": {
+                                    "ariaLabel": "DeleteCharge",
+                                    "disable": false,
+                                    "flat": true,
+                                    "icon": {
+                                      "cssClass": "",
+                                      "icon": "#icon_delete",
+                                      "isSVG": true
+                                    },
+                                    "isFloating": false,
+                                    "styleClass": "",
+                                    "title": "DeleteCharge",
+                                    "visible": true,
+                                    "whiteSecondaryBtn": true
+                                  },
+                                  "callbackMethod": "deleteCharge"
+                                },
+                                "expressions": {},
+                                "group": "right",
+                                "isVisible": true,
+                                "manifestPath": "nexxe.p2p-taxes-charges",
+                                "order": "",
+                                "toolId": "1706062283803"
+                              }
+                            ]
+                          },
+                          "data": "{\"documentId\":\"invoiceDetails\",\"basicDetailsIdPath\":\"invoiceBasicDetails\",\"lineDetailsDataModelId\":\"lineDetailsId\",\"gridId\":\"manageInvoiceLineGrid\",\"isAdvancedOtherChargesEnabled\":true,\"lineServiceListenerId\":\"listenTolineDetailsGrivSliderReciever\",\"event\":{}}",
+                          "gridId": "otherCharges",
+                          "isActive": false,
+                          "isVisible": false,
+                          "service": {
+                            "config": {
+                              "apiEndPointId": "dm_read",
+                              "dataPath": "result.invoiceDetails"
+                            },
+                            "manifestPath": "nexxe.p2p-taxes-charges@latest/slider-grid-service"
+                          },
+                          "title": "Other Charges"
+                        }
+                      ]
+                    },
+                    "attributes": {
+                      "disable": false
+                    },
+                    "behaviour": {
+                      "autoRender": false,
+                      "colspan": 6,
+                      "cssClasses": [],
+                      "listIndex": 0,
+                      "rowIndex": 0,
+                      "subType": "",
+                      "tabIndex": 0
+                    },
+                    "data": "",
+                    "dataModelId": "",
+                    "dataModelType": "",
+                    "fieldId": "widget-17060616559-field-17060616932",
+                    "hash": "mm8fvlkhuvhgu",
+                    "isMandatory": false,
+                    "isVisible": true,
+                    "label": "",
+                    "managerId": "widgetManager-1706061114270",
+                    "manifestPath": "nexxe.grid-wrapper",
+                    "type": "grid",
+                    "widgetId": "widget-17060616559"
+                  }
+                ],
+                "defaultInputManifestPath": "nexxe.input",
+                "description": " ",
+                "expressions": {},
+                "hasErrors": false,
+                "hash": "mm8fvlkhdq0r0",
+                "managerId": "widgetManager-1706061114270",
+                "manifestPath": "standard-section",
+                "title": "",
+                "toolPlugins": [],
+                "type": "standard",
+                "widgetId": "widget-17060616559"
+              }
+            ]
+          },
+          "manifestPath": "widget-manager"
+        },
+        "closeBlanket": true,
+        "closeIcon": true,
+        "containerId": "blanketPluginReceiver",
+        "customFooter": {
+          "childConfig": {
+            "closeCallBack": "cancel",
+            "listenerId": "p2p-taxes-charges-slider-grid-service",
+            "scope": "this"
+          },
+          "manifestPath": "nexxe.standard-slider-footer"
+        },
+        "customHeader": {
+          "childConfig": {}
+        },
+        "footer": [],
+        "title": "OtherCharge",
+        "titleDataKey": "OtherCharge",
+        "width": "6"
+      },
+      "scope": {
+        "sliderBlanketPluginReceiver": "invoiceOtherCharges"
+      }
+    }
+  }
+]

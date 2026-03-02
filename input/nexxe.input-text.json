@@ -1,0 +1,1237 @@
+[
+  {
+    "capturedAt": "2026-03-02T09:58:56.669Z",
+    "config": {
+      "IButtonConfig": {
+        "api": {},
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "dmInfotipConfig": {
+          "delay": 0,
+          "html": "",
+          "iconLabel": "",
+          "message": "Enter person's name order will be delivered to",
+          "position": "top",
+          "type": "iText"
+        },
+        "iButtonMsg": "Enter person's name order will be delivered to",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": ""
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": 1,
+        "cssClasses": [],
+        "isDocked": false,
+        "listIndex": 6,
+        "rowIndex": "2",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "deliverTo",
+      "dataModelId": "reqHeader",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngAfterViewInit": "",
+        "ngModelChange": "",
+        "onInit": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612939.widget-16593612939-field-16600507799.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "boolean",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612939-field-16600507799",
+      "hash": "mm909we3apnbn",
+      "isMandatory": false,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "req_deliverTo",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16593612939"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T09:58:56.669Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "100",
+        "minLength": "0",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": "1",
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "basicDetails.documentName",
+      "dataModelId": "reqHeader",
+      "dataModelType": "api",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngAfterViewInit": "",
+        "ngModelChange": "",
+        "onInit": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612248.widget-16593612248-field-16593637339.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "boolean",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "message": {
+          "defaultOutput": "",
+          "executionType": 1,
+          "expression": "IfandElse(reqHeader.basicDetails.documentName, '', 'Please Enter Document Name')",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612248.widget-16593612248-field-16593637339.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "reqHeader.basicDetails.documentName": {
+              "dataPath": "reqHeader.basicDetails.documentName",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612248-field-16593637339",
+      "hash": "mm909we3e9mr0",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "req_ReqName",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "Please enter a value",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16593612248"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:00:24.961Z",
+    "config": {
+      "IButtonConfig": {
+        "api": {},
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "dmInfotipConfig": {
+          "delay": 0,
+          "html": "",
+          "iconLabel": "",
+          "message": "Enter person's name order will be delivered to",
+          "position": "top",
+          "type": "iText"
+        },
+        "iButtonMsg": "Enter person's name order will be delivered to",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": ""
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": 1,
+        "cssClasses": [],
+        "isDocked": false,
+        "listIndex": 6,
+        "rowIndex": "2",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "deliverTo",
+      "dataModelId": "reqHeader",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngAfterViewInit": "",
+        "ngModelChange": "",
+        "onInit": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612939.widget-16593612939-field-16600507799.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "boolean",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612939-field-16600507799",
+      "hash": "mm909we3apnbn",
+      "isMandatory": false,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "req_deliverTo",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16593612939"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "100",
+        "minLength": "0",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": "1",
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "basicDetails.documentName",
+      "dataModelId": "reqHeader",
+      "dataModelType": "api",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngAfterViewInit": "",
+        "ngModelChange": "",
+        "onInit": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612248.widget-16593612248-field-16593637339.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "boolean",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "message": {
+          "defaultOutput": "",
+          "executionType": 1,
+          "expression": "IfandElse(reqHeader.basicDetails.documentName, '', 'Please Enter Document Name')",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612248.widget-16593612248-field-16593637339.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "reqHeader.basicDetails.documentName": {
+              "dataPath": "reqHeader.basicDetails.documentName",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612248-field-16593637339",
+      "hash": "mm90bvd7r3njv",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "req_ReqName",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "Please enter a value",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16593612248"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "IButtonConfig": {
+        "api": {},
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "dmInfotipConfig": {
+          "delay": 0,
+          "html": "",
+          "iconLabel": "",
+          "message": "Enter person's name order will be delivered to",
+          "position": "top",
+          "type": "iText"
+        },
+        "iButtonMsg": "Enter person's name order will be delivered to",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": ""
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": 1,
+        "cssClasses": [],
+        "isDocked": false,
+        "listIndex": 6,
+        "rowIndex": "2",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "deliverTo",
+      "dataModelId": "reqHeader",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngAfterViewInit": "",
+        "ngModelChange": "",
+        "onInit": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612939.widget-16593612939-field-16600507799.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "boolean",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612939-field-16600507799",
+      "hash": "mm90bvd7hd9n0",
+      "isMandatory": false,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "req_deliverTo",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16593612939"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "data": "",
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "",
+        "minLength": "",
+        "placeholder": "",
+        "textAlign": ""
+      },
+      "behaviour": {
+        "colspan": "1",
+        "cssClasses": [],
+        "isDocked": false,
+        "listIndex": 1,
+        "rowIndex": "1",
+        "tabIndex": 0
+      },
+      "data": "basicDetail.name",
+      "dataModelId": "documents",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(documents.actions.editBasicDetails, true), false, true)",
+          "id": "lkccvnq3mvqhr",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705794682.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "documents.actions.editBasicDetails": {
+              "dataPath": "documents.actions.editBasicDetails",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "message": {
+            "expression": "IfandElse(Equal(documents.basicDetail.name,''),'rfx_enterEventNameMessage','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705794682-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705794682.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.name": {
+                "dataPath": "documents.basicDetail.name",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "ngOnInit": {
+          "message": {
+            "expression": "IfandElse(And(Equal(rfxGetHeaderData.isFirstTimeSaveClicked,true),Equal(documents.basicDetail.name,'')),'rfx_enterEventNameMessage','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705794682-message-onInItExp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705794682.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.name": {
+                "dataPath": "documents.basicDetail.name",
+                "dataSrc": 0
+              },
+              "rfxGetHeaderData.isFirstTimeSaveClicked": {
+                "dataPath": "rfxGetHeaderData.isFirstTimeSaveClicked",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {
+          "message": {
+            "expression": "IfandElse(Equal(documents.basicDetail.name,''),'rfx_enterEventNameMessage','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705794682-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705794682.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.name": {
+                "dataPath": "documents.basicDetail.name",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16705791272-field-16705794682",
+      "hash": "mm90cgzbnpilb",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "rfx_eventName",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16705791272"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "100",
+        "minLength": "1",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 1,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "documentName",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngAfterViewInit": "",
+        "ngModelChange": "",
+        "onInit": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "message": {
+          "defaultOutput": "",
+          "executionType": 1,
+          "expression": "IfandElse(invoiceDetails.documentName, '', 'invoiceNameMandatoryValidationMessage')",
+          "id": "mbq4h93up4n2k",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600422195.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.documentName": {
+              "dataPath": "invoiceDetails.documentName",
+              "dataSrc": 0,
+              "dataType": "plain text"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(In(invoiceDetails.invoiceStatus.documentStatus, [1,112]),And(Equal(invoiceDetails.invoiceStatus.documentStatus,14),Or(And(Equal(invoiceDetails.invoiceOriginator,1),Equal(userInfo.UserContext.IsSupplier,false)),And(Equal(invoiceDetails.invoiceOriginator,2),Equal(userInfo.UserContext.IsSupplier,true))))),false,true)",
+            "id": "kmg7zbxau44cm",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600422195.attributes.disable",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceEnums": {
+                "dataPath": "getInvoiceEnums",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceOriginator": {
+                "dataPath": "invoiceDetails.invoiceOriginator",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16600421977-field-16600422195",
+      "hash": "mm90eobk8t5f6",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "invoiceName",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "100",
+        "minLength": "0",
+        "placeholder": "",
+        "textAlign": ""
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 6,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.supplierInvoiceNumber",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": "",
+        "message": {
+          "defaultOutput": "",
+          "executionType": 1,
+          "expression": "IfandElse(invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber, '', 'supplierInvoiceNumberMandatoryValidationMessage')",
+          "id": "lhkf444jlwr4r",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600609714.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Equal(invoiceDetails.isFieldEditableDocStatus,true),And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Or(And(Equal(invoiceDetails.invoiceOriginator,1),Equal(userInfo.UserContext.IsSupplier,false)),And(Equal(invoiceDetails.invoiceOriginator,2),Equal(userInfo.UserContext.IsSupplier,true))))),false,true)",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600609714.attributes.disable",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceOriginator": {
+                "dataPath": "invoiceDetails.invoiceOriginator",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "invoiceDetails.isFieldEditableDocStatus": {
+                "dataPath": "invoiceDetails.isFieldEditableDocStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          },
+          "message": {
+            "defaultOutput": false,
+            "expression": "IfandElse(invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber,'','supplierInvoiceNumberMandatoryValidationMessage')",
+            "id": "klm8g40z2bske",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600609714.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "ngOnInit": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Equal(invoiceDetails.isFieldEditableDocStatus,true),And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Or(And(Equal(invoiceDetails.invoiceOriginator,1),Equal(userInfo.UserContext.IsSupplier,false)),And(Equal(invoiceDetails.invoiceOriginator,2),Equal(userInfo.UserContext.IsSupplier,true))))),false,true)",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600609714.attributes.disable",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceOriginator": {
+                "dataPath": "invoiceDetails.invoiceOriginator",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "invoiceDetails.isFieldEditableDocStatus": {
+                "dataPath": "invoiceDetails.isFieldEditableDocStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          },
+          "message": {
+            "defaultOutput": false,
+            "expression": "IfandElse(invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber,'','supplierInvoiceNumberMandatoryValidationMessage')",
+            "id": "klm8g40z2bske",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600609714.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.supplierInvoiceNumber",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16600421977-field-16600609714",
+      "hash": "mm90eobkwpdt9",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "supplierinvoiceNumber",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "100",
+        "minLength": "0",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 28,
+        "rowIndex": "2",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.remittoLocation.contactPhone",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true)",
+          "id": "lrylz5n0261sl",
+          "output": {
+            "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16733407565.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Equal(invoiceDetails.isFieldEditableDocStatus,true),And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Or(And(Equal(invoiceDetails.invoiceOriginator,1),Equal(userInfo.UserContext.IsSupplier,false)),And(Equal(invoiceDetails.invoiceOriginator,2),Equal(userInfo.UserContext.IsSupplier,true))))),false,true)",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16733407565.attributes.disable",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceOriginator": {
+                "dataPath": "invoiceDetails.invoiceOriginator",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "invoiceDetails.isFieldEditableDocStatus": {
+                "dataPath": "invoiceDetails.isFieldEditableDocStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16601116336-field-16733407565",
+      "hash": "mm90eoblx779g",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "contactPhone",
+      "managerId": "widgetManager",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "widgetId": "widget-16601116336"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:05:07.894Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxLength": "100",
+        "minLength": "0",
+        "placeholder": "",
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 28,
+        "rowIndex": "2",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.remittoLocation.contactPhone",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true)",
+          "id": "lrylz5n0261sl",
+          "output": {
+            "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16733407565.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Equal(invoiceDetails.isFieldEditableDocStatus,true),And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Or(And(Equal(invoiceDetails.invoiceOriginator,1),Equal(userInfo.UserContext.IsSupplier,false)),And(Equal(invoiceDetails.invoiceOriginator,2),Equal(userInfo.UserContext.IsSupplier,true))))),false,true)",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16601116336.widget-16601116336-field-16733407565.attributes.disable",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceOriginator": {
+                "dataPath": "invoiceDetails.invoiceOriginator",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "invoiceDetails.isFieldEditableDocStatus": {
+                "dataPath": "invoiceDetails.isFieldEditableDocStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16601116336-field-16733407565",
+      "hash": "mm90eoblx779g",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "contactPhone",
+      "managerId": "widgetManager",
+      "manifestPath": "input-text",
+      "otherData": "",
+      "otherdata": "",
+      "type": "text",
+      "widgetId": "widget-16601116336"
+    }
+  }
+]

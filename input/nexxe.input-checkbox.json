@@ -1,0 +1,227 @@
+[
+  {
+    "capturedAt": "2026-03-02T09:58:56.668Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": true,
+        "isTooltipVisible": true,
+        "keyEventFocus": false
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": 1,
+        "cssClasses": [],
+        "enableAdvancedTooltip": true,
+        "listIndex": 45,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "isUrgent",
+      "dataModelId": "reqHeader",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "id": "lzlfiqdvwlc4t",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612248.widget-16593612248-field-17231301737.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612248-field-17231301737",
+      "groupLabel": "",
+      "hash": "mm908nba2f5jl",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "req_isUrgent",
+      "managerId": "widgetManager",
+      "manifestPath": "input-checkbox",
+      "type": "checkbox",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16593612248"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T09:58:56.669Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": "expression",
+        "isTooltipVisible": true,
+        "keyEventFocus": false
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": 1,
+        "cssClasses": [],
+        "enableAdvancedTooltip": true,
+        "listIndex": 45,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "isUrgent",
+      "dataModelId": "reqHeader",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "id": "lzlfiqdvwlc4t",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612248.widget-16593612248-field-17231301737.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612248-field-17231301737",
+      "groupLabel": "",
+      "hash": "mm909we3acxov",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "req_isUrgent",
+      "managerId": "widgetManager",
+      "manifestPath": "input-checkbox",
+      "type": "checkbox",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16593612248"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": false,
+        "disable": "expression",
+        "isTooltipVisible": true,
+        "keyEventFocus": false
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": 1,
+        "cssClasses": [],
+        "enableAdvancedTooltip": true,
+        "listIndex": 45,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "isUrgent",
+      "dataModelId": "reqHeader",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "Or(NotEqual(In(reqHeader.basicDetails.docStatus.id, [1,3,4,14]), true), reqHeader.versionDetails.changeReq)",
+          "id": "lzlfiqdvwlc4t",
+          "output": {
+            "dataPath": "widgetManager.widget-16593612248.widget-16593612248-field-17231301737.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "reqHeader.basicDetails.docStatus.id": {
+              "dataPath": "reqHeader.basicDetails.docStatus.id",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "reqHeader.versionDetails.changeReq": {
+              "dataPath": "reqHeader.versionDetails.changeReq",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16593612248-field-17231301737",
+      "groupLabel": "",
+      "hash": "mm90bvd7pwtff",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "req_isUrgent",
+      "managerId": "widgetManager",
+      "manifestPath": "input-checkbox",
+      "type": "checkbox",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16593612248"
+    }
+  }
+]

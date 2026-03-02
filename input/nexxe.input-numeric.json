@@ -1,0 +1,286 @@
+[
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "keyEventFocus": false,
+        "maxPrecision": 2,
+        "maxValue": "999",
+        "minPrecision": 0,
+        "minValue": "0",
+        "placeholder": "",
+        "restrictMinus": false,
+        "setZeroWhenEmpty": false,
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "2",
+        "cssClasses": [],
+        "listIndex": 17,
+        "rowIndex": "1",
+        "tabIndex": 0
+      },
+      "data": "basicDetail.boundaryCondition",
+      "dataModelId": "documents",
+      "dataModelType": "",
+      "events": {
+        "blur": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": ""
+      },
+      "expressions": {
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "Equal(documents.actions.buyerAdvanceField, true)",
+          "id": "lkwh1afttiw5c",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16911464924.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "boolean",
+          "params": {
+            "documents.actions.buyerAdvanceField": {
+              "dataPath": "documents.actions.buyerAdvanceField",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16705791272-field-16911464924",
+      "hash": "mm90cgzbb763d",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "rfx_boundaryCondition",
+      "managerId": "widgetManager",
+      "manifestPath": "input-numeric",
+      "subType": "number",
+      "type": "numeric",
+      "widgetId": "widget-16705791272"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "IActionButtonConfig": {
+        "attachedConfig": {
+          "closeBlanket": true,
+          "closeIcon": true,
+          "customFooter": {
+            "childConfig": {}
+          },
+          "customHeader": {
+            "childConfig": {}
+          },
+          "title": "-",
+          "titleDataKey": ""
+        },
+        "icon": {
+          "isSVG": true
+        }
+      },
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "keyEventFocus": false,
+        "maxPrecision": "2",
+        "maxValue": 100000000000000,
+        "minPrecision": "2",
+        "minValue": 0,
+        "placeholder": "",
+        "restrictMinus": false,
+        "setZeroWhenEmpty": true,
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 3,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.invoiceAmount",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openCustomPopup": "",
+        "openPopup": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": "",
+        "isVisible": "",
+        "message": {
+          "defaultOutput": "invoiceAmountInvalidValidationMessage",
+          "executionType": 1,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceBasicDetails.invoiceAmount,''),'invoiceAmountMandatoryMessage',IfandElse(Equal(Decimal(Text(invoiceDetails.invoiceBasicDetails.aggregatedLinetotal)),Decimal(Text(invoiceDetails.invoiceBasicDetails.invoiceAmount))),'','invoiceAmountInvalidValidationMessage'))",
+          "id": "lhtovidms9ozz",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600607599.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceBasicDetails.aggregatedLinetotal": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.aggregatedLinetotal",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceBasicDetails.invoiceAmount": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.invoiceAmount",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "invAmountAction4": {
+            "defaultOutput": "",
+            "expression": "IfandElse(getInvoiceConfig.returnValue.maxValueTotal, Number(getInvoiceConfig.returnValue.maxValueTotal), 0)",
+            "order": 1,
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600607599.attributes.maxValue",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceConfig.returnValue.maxValueTotal": {
+                "dataPath": "getInvoiceConfig.returnValue.maxValueTotal",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "ngOnInit": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Equal(invoiceDetails.isFieldEditableDocStatus,true),And(Or(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.ManualMatching)),Or(And(Equal(invoiceDetails.invoiceOriginator,1),Equal(userInfo.UserContext.IsSupplier,false)),And(Equal(invoiceDetails.invoiceOriginator,2),Equal(userInfo.UserContext.IsSupplier,true))))),false,true)",
+            "id": "knrojqbz98l19",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600607599.attributes.disable",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.ManualMatching": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.ManualMatching",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceOriginator": {
+                "dataPath": "invoiceDetails.invoiceOriginator",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "invoiceDetails.isFieldEditableDocStatus": {
+                "dataPath": "invoiceDetails.isFieldEditableDocStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          },
+          "invAmountAction4": {
+            "defaultOutput": 100000000000000,
+            "expression": "IfandElse(getInvoiceConfig.returnValue.maxValueTotal, Number(100000000000000), 100000000000000)",
+            "order": 1,
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600607599.attributes.maxValue",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "getInvoiceConfig.returnValue.maxValueTotal": {
+                "dataPath": "getInvoiceConfig.returnValue.maxValueTotal",
+                "dataSrc": 0
+              }
+            }
+          },
+          "message": {
+            "defaultOutput": 0,
+            "expression": "IfandElse(Equal(invoiceDetails.invoiceBasicDetails.invoiceAmount,''),'',IfandElse(Equal(Decimal(Text(invoiceDetails.invoiceBasicDetails.invoiceAmount)),Decimal(Text(invoiceDetails.invoiceBasicDetails.aggregatedLinetotal))),'',''))",
+            "id": "klksgyqdteifo",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16600607599.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.invoiceBasicDetails.aggregatedLinetotal": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.aggregatedLinetotal",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceBasicDetails.invoiceAmount": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.invoiceAmount",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16600421977-field-16600607599",
+      "hash": "mm90eobk3bk05",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "invoiceAmount",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "input-numeric",
+      "subType": "number",
+      "type": "numeric",
+      "validation": {
+        "message": ""
+      },
+      "widgetId": "widget-16600421977"
+    }
+  }
+]

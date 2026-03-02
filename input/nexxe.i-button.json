@@ -1,0 +1,184 @@
+[
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "iButtonMsg": "supplierInvoiceDateIMessage",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "iButtonMsg": "Once selected, date will display in-MM/DD/YYYY format",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "iButtonMsg": "taxIdentificationNumberIMessage",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "iButtonMsg": ".pdf",
+        "iTextPosition": "bottom"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "iButtonMsg": "supplierInvoiceDateIMessage",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "iButtonMsg": "Once selected, date will display in-MM/DD/YYYY format",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "iButtonMsg": "taxIdentificationNumberIMessage",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "iButtonMsg": ".pdf",
+        "iTextPosition": "bottom"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "iButtonMsg": ".pdf",
+        "iTextPosition": "bottom"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "basicDetail.eventValueCurrency.tooltipValue",
+        "dataModelId": "documents",
+        "iButtonIcon": "#icon_ExchangeRate",
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": "top",
+        "iconLabel": "platform_inputPrice_icon_label_key"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "config": {
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "iButtonMsg": ".bmp, .csv, .doc, .docx, .dotx, .gif, .jpeg, .jpg, .pdf, .png, .potx, .ppsx, .ppt, .pptx, .rtf, .sldx, .tif, .tiff, .txt, .xls, .xlsx, .xltx, .mht, .ods, .odt, .odp, .pps, .odm, .mpp, .mpt, .vst, .vsd, .oft, .xml, .zip, .json, .msg, .liquid, .7z, .stp, .step, .dxf, .dwg, .igs, .iges, .x_t",
+        "iTextPosition": "bottom"
+      }
+    }
+  }
+]

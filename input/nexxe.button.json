@@ -1,0 +1,3917 @@
+[
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.378Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.379Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:23:35.380Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.807Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.810Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "dataModelId": "invoiceDetails",
+        "disable": false,
+        "expressions": {},
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "addLabels",
+        "isFloating": false,
+        "styleClass": "popupRightCloseIcon",
+        "title": "Add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Maximize",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon",
+          "icon": "#icon_Maximize",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-maximizeGrid isMaximizeButtonWithoutTitle",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAddTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Findall('10700045', userInfo.UserContext.Activities), Findall('10700070', userInfo.UserContext.Activities)), false, false)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAddTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "userInfo": {
+                "dataPath": "userInfo",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.Activities": {
+                "dataPath": "userInfo.UserContext.Activities",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAddTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Findall('10700045', userInfo.UserContext.Activities), Findall('10700070', userInfo.UserContext.Activities)), false, false)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAddTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "userInfo": {
+                "dataPath": "userInfo",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.Activities": {
+                "dataPath": "userInfo.UserContext.Activities",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDeleteTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Equal(userInfo.UserContext.ContactCode,invoiceDetails.createdBy.contactCode),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDeleteTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.createdBy.contactCode": {
+                "dataPath": "invoiceDetails.createdBy.contactCode",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.ContactCode": {
+                "dataPath": "userInfo.UserContext.ContactCode",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "delete",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDeleteTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Equal(userInfo.UserContext.ContactCode,invoiceDetails.createdBy.contactCode),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDeleteTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.createdBy.contactCode": {
+                "dataPath": "invoiceDetails.createdBy.contactCode",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.ContactCode": {
+                "dataPath": "userInfo.UserContext.ContactCode",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "delete",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAdd",
+        "disable": true,
+        "expressions": {
+          "disable": {
+            "defaultOutput": true,
+            "expression": "IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),And(And(getInvoiceConfig,getInvoiceConfig.returnValue),Equal(getInvoiceConfig.returnValue.enableNewLine,'true'))),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAdd.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceConfig.returnValue.enableNewLine": {
+                "dataPath": "getInvoiceConfig.returnValue.enableNewLine",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAdd",
+        "disable": true,
+        "expressions": {
+          "disable": {
+            "defaultOutput": true,
+            "expression": "IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),And(And(getInvoiceConfig,getInvoiceConfig.returnValue),Equal(getInvoiceConfig.returnValue.enableNewLine,'true'))),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAdd.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceConfig.returnValue.enableNewLine": {
+                "dataPath": "getInvoiceConfig.returnValue.enableNewLine",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDelete",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": "",
+            "expression": "IfandElse(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),false,IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Equal(userInfo.UserContext.IsSupplier,true)),false,true))",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDelete.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "deleteLines",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDelete",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": "",
+            "expression": "IfandElse(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),false,IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Equal(userInfo.UserContext.IsSupplier,true)),false,true))",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDelete.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "deleteLines",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Platform_export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Platform_export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDuplicate",
+        "disable": true,
+        "expressions": {},
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Copy",
+          "isSVG": true
+        },
+        "id": "expIdDuplicate",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "duplicateLinesBtn",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDuplicate",
+        "disable": true,
+        "expressions": {},
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Copy",
+          "isSVG": true
+        },
+        "id": "expIdDuplicate",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "duplicateLinesBtn",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "shades-text text-grey",
+          "icon": "#icon_BulkApply",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Apply_To_All",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "shades-text text-grey",
+          "icon": "#icon_BulkApply",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Apply_To_All",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_ExchangeRate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "undefined grid-tool-basic-button grid-tool-basic-button",
+        "title": "Tax Validation",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:24:08.811Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_ExchangeRate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "undefined grid-tool-basic-button grid-tool-basic-button",
+        "title": "Tax Validation",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.048Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_C2p_MassUpdate",
+        "disable": false,
+        "flat": true,
+        "isFloating": false,
+        "styleClass": " grid-tool-add-button",
+        "title": "Platform_C2p_MassUpdate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "dataModelId": "invoiceDetails",
+        "disable": false,
+        "expressions": {},
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "addLabels",
+        "isFloating": false,
+        "styleClass": "popupRightCloseIcon",
+        "title": "Add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Maximize",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon",
+          "icon": "#icon_Maximize",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-maximizeGrid isMaximizeButtonWithoutTitle",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAddTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Findall('10700045', userInfo.UserContext.Activities), Findall('10700070', userInfo.UserContext.Activities)), false, false)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAddTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "userInfo": {
+                "dataPath": "userInfo",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.Activities": {
+                "dataPath": "userInfo.UserContext.Activities",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAddTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Or(Findall('10700045', userInfo.UserContext.Activities), Findall('10700070', userInfo.UserContext.Activities)), false, false)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAddTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "userInfo": {
+                "dataPath": "userInfo",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.Activities": {
+                "dataPath": "userInfo.UserContext.Activities",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDeleteTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Equal(userInfo.UserContext.ContactCode,invoiceDetails.createdBy.contactCode),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDeleteTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.createdBy.contactCode": {
+                "dataPath": "invoiceDetails.createdBy.contactCode",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.ContactCode": {
+                "dataPath": "userInfo.UserContext.ContactCode",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "delete",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDeleteTeam",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": false,
+            "expression": "IfandElse(Equal(userInfo.UserContext.ContactCode,invoiceDetails.createdBy.contactCode),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDeleteTeam.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.createdBy.contactCode": {
+                "dataPath": "invoiceDetails.createdBy.contactCode",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.ContactCode": {
+                "dataPath": "userInfo.UserContext.ContactCode",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "delete",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAdd",
+        "disable": true,
+        "expressions": {
+          "disable": {
+            "defaultOutput": true,
+            "expression": "IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),And(And(getInvoiceConfig,getInvoiceConfig.returnValue),Equal(getInvoiceConfig.returnValue.enableNewLine,'true'))),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAdd.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceConfig.returnValue.enableNewLine": {
+                "dataPath": "getInvoiceConfig.returnValue.enableNewLine",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdAdd",
+        "disable": true,
+        "expressions": {
+          "disable": {
+            "defaultOutput": true,
+            "expression": "IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),And(And(getInvoiceConfig,getInvoiceConfig.returnValue),Equal(getInvoiceConfig.returnValue.enableNewLine,'true'))),false,true)",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdAdd.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceConfig.returnValue.enableNewLine": {
+                "dataPath": "getInvoiceConfig.returnValue.enableNewLine",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "id": "add",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "add",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDelete",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": "",
+            "expression": "IfandElse(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),false,IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Equal(userInfo.UserContext.IsSupplier,true)),false,true))",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDelete.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "deleteLines",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDelete",
+        "disable": false,
+        "expressions": {
+          "disable": {
+            "defaultOutput": "",
+            "expression": "IfandElse(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Draft),false,IfandElse(And(Equal(invoiceDetails.invoiceStatus.documentStatus,getInvoiceEnums.returnValue.DocumentStatus.Rejected),Equal(userInfo.UserContext.IsSupplier,true)),false,true))",
+            "id": "kkzmrxtbfpu8g",
+            "output": {
+              "dataPath": "expIdDelete.disable",
+              "dataType": "widgetManager",
+              "setInType": "dataModel"
+            },
+            "params": {
+              "getInvoiceEnums.returnValue.DocumentStatus.Draft": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Draft",
+                "dataSrc": 0
+              },
+              "getInvoiceEnums.returnValue.DocumentStatus.Rejected": {
+                "dataPath": "getInvoiceEnums.returnValue.DocumentStatus.Rejected",
+                "dataSrc": 0
+              },
+              "invoiceDetails": {
+                "dataPath": "invoiceDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceStatus.documentStatus": {
+                "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+                "dataSrc": 0
+              },
+              "userInfo.UserContext.IsSupplier": {
+                "dataPath": "userInfo.UserContext.IsSupplier",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "id": "deleteLines",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "delete",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Platform_export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Platform_export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDuplicate",
+        "disable": true,
+        "expressions": {},
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Copy",
+          "isSVG": true
+        },
+        "id": "expIdDuplicate",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "duplicateLinesBtn",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "buttonExpressionId": "expIdDuplicate",
+        "disable": true,
+        "expressions": {},
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Copy",
+          "isSVG": true
+        },
+        "id": "expIdDuplicate",
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "duplicateLinesBtn",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "shades-text text-grey",
+          "icon": "#icon_BulkApply",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Apply_To_All",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "shades-text text-grey",
+          "icon": "#icon_BulkApply",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Apply_To_All",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_ExchangeRate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "undefined grid-tool-basic-button grid-tool-basic-button",
+        "title": "Tax Validation",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:26:36.049Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_ExchangeRate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "undefined grid-tool-basic-button grid-tool-basic-button",
+        "title": "Tax Validation",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": true,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Reprocessing",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Save and re-evaluate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": true,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Reprocessing",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Save and re-evaluate",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Platform_Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "Platform_Export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "shades-text text-grey",
+          "icon": "#icon_BulkApply",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Apply_To_All",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "shades-text text-grey",
+          "icon": "#icon_BulkApply",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Apply_To_All",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": false,
+        "styleClass": "marginLeft10",
+        "title": "Platform_Cancel",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": false,
+        "styleClass": "marginLeft10",
+        "title": "Platform_Apply"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "AddCharge",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "",
+        "title": "AddCharge",
+        "visible": true,
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "AddCharge",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_CirclePlus",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "",
+        "title": "AddCharge",
+        "visible": true,
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "DeleteCharge",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "",
+        "title": "DeleteCharge",
+        "visible": true,
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:27:14.812Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "DeleteCharge",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_delete",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "",
+        "title": "DeleteCharge",
+        "visible": true,
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "icon marginRight4",
+          "icon": "#icon_ManageColumns",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn",
+        "title": "Platform_Manage_Columns_manageColumns",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "rfx_export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Platform_Export_Menu",
+        "disable": false,
+        "flat": true,
+        "icon": {
+          "cssClass": "popupRightCloseIcon",
+          "icon": "#icon_Duplicate",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "btn-managecolumn grid-tool-add-button grid-tool-add-button",
+        "title": "rfx_export",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_filter",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-btn-new",
+        "title": "Platform_Ag_Grid_filters",
+        "whiteSecondaryBtn": true
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T00:28:45.151Z",
+    "config": {
+      "callback": {},
+      "config": {
+        "ariaLabel": "Saved Filters",
+        "flat": true,
+        "icon": {
+          "cssClass": "",
+          "icon": "#icon_DownChevron",
+          "isSVG": true
+        },
+        "isFloating": false,
+        "styleClass": "af-filter-downArrow-btn",
+        "title": "",
+        "whiteSecondaryBtn": true
+      }
+    }
+  }
+]

@@ -1,0 +1,499 @@
+[
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "IButtonConfig": {
+        "api": {},
+        "attributes": {
+          "iButtonType": "iText"
+        },
+        "behaviour": {
+          "isVisible": true
+        },
+        "data": "",
+        "dmInfotipConfig": {
+          "delay": 0,
+          "html": "",
+          "iconLabel": "",
+          "message": "Once selected, date will display in-MM/DD/YYYY format",
+          "position": "top",
+          "type": "iText"
+        },
+        "iButtonMsg": "Once selected, date will display in-MM/DD/YYYY format",
+        "iTextHtml": "",
+        "iTextPosition": "top"
+      },
+      "attributes": {
+        "appendTimeToDate": true,
+        "applyOffSet": false,
+        "clickEventFocus": true,
+        "disable": false,
+        "isEditable": true,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxDate": "",
+        "maxLength": 100,
+        "minDate": "",
+        "minLength": 0,
+        "placeHolder": "",
+        "placeholder": "",
+        "setEmptyDate": true,
+        "showFooterButtons": false,
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 8,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.supplierInvoiceDate",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "change": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "onShowLookupClick": "",
+        "openCustomPopup": "",
+        "openPopup": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Or(Equal(invoiceDetails.isFieldEditableDocStatus,true),And(Equal(invoiceDetails.invoiceStatus.documentStatus,14),Or(And(Equal(invoiceDetails.invoiceOriginator,1),Equal(userInfo.UserContext.IsSupplier,false)),And(Equal(invoiceDetails.invoiceOriginator,2),Equal(userInfo.UserContext.IsSupplier,true))))),false,true)",
+          "id": "lfw8pzgsicxiu",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16626245488.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceOriginator": {
+              "dataPath": "invoiceDetails.invoiceOriginator",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.isFieldEditableDocStatus": {
+              "dataPath": "invoiceDetails.isFieldEditableDocStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "userInfo.UserContext.IsSupplier": {
+              "dataPath": "userInfo.UserContext.IsSupplier",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "message": {
+          "defaultOutput": "supplierInvoiceDateInvalidValidationMessage",
+          "executionType": 1,
+          "expression": "IfandElse(dateUTC(invoiceDetails.invoiceBasicDetails.supplierInvoiceDate),IfandElse(GreaterThan(dateUTC(invoiceDetails.invoiceBasicDetails.supplierInvoiceDate),todayUTC()),'supplierInvoiceDateInvalidValidationMessage',''),'supplierInvoiceDateMandatoryValidationMessage')",
+          "id": "lfw8ohe2dc6sv",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16626245488.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "message": {
+            "expression": "IfandElse(AbsoluteAnd(PathExists(invoiceDetails.invoiceBasicDetails.supplierInvoiceDate),EmptyDataCheck(invoiceDetails.invoiceBasicDetails.supplierInvoiceDate)),'Please enter a value','')",
+            "id": "widget-16600421977-widget-16600421977-field-16626245488-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16626245488.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.invoiceBasicDetails": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "ngOnInit": {
+          "iButtonMsg": {
+            "defaultOutput": "",
+            "expression": "IfandElse(invoiceDateIButtonMessage,invoiceDateIButtonMessage,supplierInvoiceDateIMessage)",
+            "id": "klmcmb6je28g3",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16626245488.IButtonConfig.iButtonMsg",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDateIButtonMessage": {
+                "dataPath": "invoiceDateIButtonMessage",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {
+          "message": {
+            "expression": "IfandElse(AbsoluteAnd(PathExists(invoiceDetails.invoiceBasicDetails.supplierInvoiceDate),EmptyDataCheck(invoiceDetails.invoiceBasicDetails.supplierInvoiceDate)),'Please enter a value','')",
+            "id": "widget-16600421977-widget-16600421977-field-16626245488-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16626245488.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "invoiceDetails.invoiceBasicDetails": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails",
+                "dataSrc": 0
+              },
+              "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate": {
+                "dataPath": "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16600421977-field-16626245488",
+      "hash": "mm90eobl3gvdw",
+      "isMandatory": true,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "supplierInvoiceDate",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "Please enter a value",
+      "manifestPath": "input-date",
+      "type": "date",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attributes": {
+        "appendTimeToDate": true,
+        "applyOffSet": false,
+        "clickEventFocus": true,
+        "disable": false,
+        "isEditable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxDate": "",
+        "maxLength": "",
+        "minDate": "",
+        "minLength": "",
+        "placeHolder": "",
+        "placeholder": "",
+        "setEmptyDate": true,
+        "showFooterButtons": false,
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 8,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.baselineDate",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "change": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "onShowLookupClick": "",
+        "openCustomPopup": "",
+        "openPopup": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": false,
+          "expression": "IfandElse(In(invoiceDetails.invoiceStatus.documentStatus, [1, 112]), false, true)",
+          "id": "lk6joxjwcac1f",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16886355525.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus",
+              "dataSrc": 0,
+              "dataType": "invoicestatus"
+            },
+            "invoiceDetails.invoiceStatus.documentStatus": {
+              "dataPath": "invoiceDetails.invoiceStatus.documentStatus",
+              "dataSrc": 0,
+              "dataType": "integer number"
+            }
+          }
+        },
+        "isVisible": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(invoiceDetails.invoiceType.invoiceTypes, 9), false, true)",
+          "id": "lryprjz42ig86",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16886355525.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "invoiceDetails.invoiceType.invoiceTypes": {
+              "dataPath": "invoiceDetails.invoiceType.invoiceTypes",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "message": {
+          "defaultOutput": "",
+          "executionType": 1,
+          "expression": "IfandElse(dateUTC(invoiceDetails.invoiceBasicDetails.baselineDate),'','baseLineDateMandatory')",
+          "id": "lk9v2hxjlontq",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16886355525.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceBasicDetails.baselineDate": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.baselineDate",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {},
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16600421977-field-16886355525",
+      "hash": "mm90eobllsc1a",
+      "isMandatory": false,
+      "isMaskingEnabled": false,
+      "isVisible": true,
+      "label": "baselineDate",
+      "managerId": "widgetManager",
+      "manifestPath": "input-date",
+      "maxDateOption": "Code Editor",
+      "minDateOption": "Code Editor",
+      "type": "date",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16600421977"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:02:46.509Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attributes": {
+        "appendTimeToDate": true,
+        "applyOffSet": false,
+        "clickEventFocus": true,
+        "disable": false,
+        "isEditable": true,
+        "isTooltipVisible": true,
+        "keyEventFocus": false,
+        "maxDate": "",
+        "maxLength": 100,
+        "minDate": "",
+        "minLength": 0,
+        "placeHolder": "",
+        "placeholder": "",
+        "setEmptyDate": true,
+        "textAlign": "left"
+      },
+      "behaviour": {
+        "autoRender": false,
+        "colspan": "1",
+        "cssClasses": [],
+        "isConfigEditable": false,
+        "isDocked": false,
+        "listIndex": 9,
+        "rowIndex": "1",
+        "subType": "",
+        "tabIndex": 0
+      },
+      "data": "invoiceBasicDetails.receivedDate",
+      "dataModelId": "invoiceDetails",
+      "dataModelType": "Select API",
+      "events": {
+        "blur": "",
+        "change": "",
+        "click": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "mouseover": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "onShowLookupClick": "",
+        "openCustomPopup": "",
+        "openPopup": "",
+        "select": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(invoiceDetails.isFieldEditableDocStatus, true), false, true)",
+          "id": "lrpnvn3xjoth3",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16601226647.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.isFieldEditableDocStatus": {
+              "dataPath": "invoiceDetails.isFieldEditableDocStatus",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "Equal(userInfo.UserContext.IsSupplier, false)",
+          "id": "lfw92wyqxc0v8",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16601226647.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "userInfo.UserContext.IsSupplier": {
+              "dataPath": "userInfo.UserContext.IsSupplier",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "message": {
+          "defaultOutput": "invoiceRecievedDateInvalidValidationMessage",
+          "executionType": 1,
+          "expression": "IfandElse(dateUTC(invoiceDetails.invoiceBasicDetails.receivedDate),IfandElse(GreaterThan(dateUTC(invoiceDetails.invoiceBasicDetails.receivedDate),todayUTC()),'invoiceRecievedDateInvalidValidationMessage',IfandElse(GreaterThan(dateUTC(invoiceDetails.invoiceBasicDetails.supplierInvoiceDate),dateUTC(invoiceDetails.invoiceBasicDetails.receivedDate)),'invoiceReceivedOnDateGreaterThanSupInvDate','')),'invoiceRecievedDateMandatoryValidationMessage')",
+          "id": "lfw93i70c5owz",
+          "output": {
+            "dataPath": "widgetManager.widget-16600421977.widget-16600421977-field-16601226647.validation.message",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "invoiceDetails.invoiceBasicDetails.receivedDate": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.receivedDate",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate": {
+              "dataPath": "invoiceDetails.invoiceBasicDetails.supplierInvoiceDate",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {},
+        "ngOnInit": {},
+        "onDeactivate": {}
+      },
+      "fieldId": "widget-16600421977-field-16601226647",
+      "hash": "mm90eobl7sv7k",
+      "isMandatory": false,
+      "isVisible": true,
+      "label": "receivedDate",
+      "managerId": "widgetManager",
+      "manifestPath": "input-date",
+      "type": "date",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16600421977"
+    }
+  }
+]

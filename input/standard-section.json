@@ -1,0 +1,326 @@
+[
+  {
+    "capturedAt": "2026-03-02T08:33:23.885Z",
+    "config": {
+      "config": {
+        "attachedConfig": {
+          "apiEndPoints": []
+        },
+        "behaviour": {
+          "isCollapsible": true,
+          "isDraggable": true,
+          "isEagerlyLoaded": true,
+          "isExpanded": true,
+          "isLeftNavEnabled": false,
+          "isOptional": false,
+          "isOptionalMenuEnabled": false,
+          "isSelected": false,
+          "isShown": [],
+          "isSpinning": false,
+          "isSwitchable": false,
+          "isTitleHidden": true,
+          "isTransparent": true,
+          "isVisible": true,
+          "isWidgetSticky": false,
+          "listIndex": 7,
+          "pinnedAt": "top",
+          "removeSpacing": false,
+          "removeWidgetMargin": true
+        },
+        "children": [
+          {
+            "attachedConfig": {
+              "caterpillarRedirect": true,
+              "config": {
+                "channelRedirect": false,
+                "colspan": 2,
+                "hideOBOHeader": false,
+                "hideOrgHeader": false,
+                "hideTradingPartnerTypeValue": "",
+                "hideUserTypeValue": "",
+                "searchBarCharLimit": 50
+              },
+              "showHeaderMappingSection": true
+            },
+            "autoSuggestFields": "shortName",
+            "behaviour": {
+              "colspan": 6,
+              "isConfigEditable": false,
+              "listIndex": 0
+            },
+            "channelId": "section-gbLanding-header",
+            "fieldId": "widget-16863051145-field-17085215500",
+            "hash": "mm8x6itpcccp5",
+            "isMandatory": false,
+            "isVisible": true,
+            "label": "section-gbLanding-header",
+            "managerId": "widgetManager",
+            "manifestPath": "nexxe.gb-landing-header",
+            "title": "GB LANDING HEADER",
+            "type": "custom",
+            "validation": null,
+            "widgetId": "widget-16863051145"
+          }
+        ],
+        "defaultInputManifestPath": "nexxe.input",
+        "expressions": {},
+        "hash": "mm8x6itpxa6hb",
+        "managerId": "widgetManager",
+        "manifestPath": "standard-section",
+        "title": "Untitled Widget",
+        "toolPlugins": [],
+        "type": "standard",
+        "widgetId": "widget-16863051145"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T08:33:23.885Z",
+    "config": {
+      "config": {
+        "attachedConfig": {
+          "apiEndPoints": []
+        },
+        "behaviour": {
+          "isCollapsible": true,
+          "isDraggable": true,
+          "isEagerlyLoaded": true,
+          "isExpanded": true,
+          "isLeftNavEnabled": false,
+          "isOptional": false,
+          "isOptionalMenuEnabled": false,
+          "isSelected": true,
+          "isShown": [],
+          "isSpinning": false,
+          "isSwitchable": false,
+          "isTitleHidden": true,
+          "isTransparent": true,
+          "isVisible": true,
+          "isWidgetSticky": false,
+          "listIndex": 5,
+          "pinnedAt": "top",
+          "removeSpacing": false,
+          "removeWidgetMargin": false
+        },
+        "children": [
+          {
+            "attachedConfig": {
+              "attributes": {
+                "hideGuidedProcurementSection": false,
+                "hidePunchoutCatalogsSection": false,
+                "hideRecentActivitySection": false,
+                "hideTopCategoriesSection": false,
+                "isRouteToChannelPage": false,
+                "isUserMappedCategory": false,
+                "sectionsDisplayOrder": "recentRequest,category,punchout,gbuy"
+              }
+            },
+            "behaviour": {
+              "colspan": 6,
+              "isConfigEditable": false,
+              "listIndex": 0
+            },
+            "channelId": "section-gbLanding-page-left-section",
+            "fieldId": "widget-16859767273-field-17090184349",
+            "hash": "mm8x6itppqrkx",
+            "isMandatory": false,
+            "isVisible": true,
+            "label": "section-gbLanding-page-left-section",
+            "managerId": "widgetManager",
+            "manifestPath": "nexxe.gb-landing-page-left-section",
+            "title": "GB LANDING LEFT SECTION",
+            "type": "custom",
+            "validation": null,
+            "widgetId": "widget-16859767273"
+          }
+        ],
+        "defaultInputManifestPath": "nexxe.input",
+        "expressions": {},
+        "hash": "mm8x6itpy4i1l",
+        "managerId": "widgetManager",
+        "manifestPath": "standard-section",
+        "title": "Guided Procurement",
+        "toolPlugins": [],
+        "type": "standard",
+        "widgetId": "widget-16859767273"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T08:33:23.885Z",
+    "config": {
+      "config": {
+        "attachedConfig": {
+          "apiEndPoints": []
+        },
+        "behaviour": {
+          "isCollapsible": true,
+          "isDraggable": true,
+          "isEagerlyLoaded": true,
+          "isExpanded": true,
+          "isLeftNavEnabled": false,
+          "isOptional": false,
+          "isOptionalMenuEnabled": false,
+          "isSelected": false,
+          "isShown": [],
+          "isSpinning": false,
+          "isSwitchable": false,
+          "isTitleHidden": true,
+          "isTransparent": true,
+          "isVisible": true,
+          "isWidgetSticky": false,
+          "listIndex": 6,
+          "pinnedAt": "top",
+          "removeSpacing": false,
+          "removeWidgetMargin": false
+        },
+        "children": [
+          {
+            "attachedConfig": {
+              "apiConfig": {
+                "cdsEndpoint": "getTasksForPlugin",
+                "dataConfig": "returnValue.returnTaskModelList",
+                "payloadConfig": {
+                  "paginationFilter": {
+                    "endRow": 5,
+                    "sortBy": "createdDate",
+                    "sortOrder": "desc",
+                    "startRow": 0
+                  },
+                  "taskRequest": {
+                    "ContactCode": "userInfo.UserContext.ContactCode"
+                  }
+                },
+                "totalCountConfig": "returnValue.totalCount"
+              },
+              "attributes": {
+                "hideMyOrderTab": false,
+                "hideMyRequestTab": false,
+                "hideMyTaskTab": false
+              },
+              "isBackgroundTransparent": true,
+              "isHeaderVisible": false,
+              "isMiniature": true,
+              "isNotDomainModel": true,
+              "isSubmittedStatus": true,
+              "isTest": 6,
+              "maxListItemCount": 5,
+              "myTaskPayload": {
+                "payloadConfig": {
+                  "paginationFilter": {
+                    "endRow": 5,
+                    "sortBy": "createdDate",
+                    "sortOrder": "desc",
+                    "startRow": 0
+                  },
+                  "taskRequest": {
+                    "ContactCode": "userInfo.UserContext.ContactCode"
+                  }
+                }
+              },
+              "stepper": {
+                "attachedConfig": {
+                  "headerDataModelId": "reqHeader",
+                  "helperPage": "req_helper"
+                }
+              },
+              "totalIntakeRequestsCount": "5"
+            },
+            "behaviour": {
+              "colspan": 6,
+              "isConfigEditable": false,
+              "listIndex": 0
+            },
+            "channelId": "section-gblayout-page-right-section",
+            "fieldId": "widget-16866498520-field-17024353671",
+            "hash": "mm8x6itq4g36h",
+            "isMandatory": false,
+            "isVisible": true,
+            "label": "section-gblayout-page-right-section",
+            "managerId": "widgetManager",
+            "manifestPath": "nexxe.gb-layout-page-right-section",
+            "title": "GB layout RIGHT SECTION",
+            "type": "custom",
+            "validation": null,
+            "widgetId": "widget-16866498520"
+          }
+        ],
+        "defaultInputManifestPath": "nexxe.input",
+        "expressions": {},
+        "hash": "mm8x6itqle5pf",
+        "managerId": "widgetManager",
+        "manifestPath": "standard-section",
+        "title": "Untitled Widget",
+        "toolPlugins": [],
+        "type": "standard",
+        "widgetId": "widget-16866498520"
+      }
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T08:33:23.885Z",
+    "config": {
+      "config": {
+        "attachedConfig": {
+          "apiEndPoints": []
+        },
+        "behaviour": {
+          "isCollapsible": false,
+          "isDraggable": true,
+          "isEagerlyLoaded": true,
+          "isExpanded": true,
+          "isLeftNavEnabled": false,
+          "isOptional": false,
+          "isOptionalMenuEnabled": false,
+          "isSelected": false,
+          "isShown": [],
+          "isSpinning": false,
+          "isSwitchable": false,
+          "isTitleHidden": true,
+          "isTransparent": true,
+          "isVisible": true,
+          "isWidgetSticky": false,
+          "listIndex": 7,
+          "pinnedAt": "top",
+          "removeSpacing": false,
+          "removeWidgetMargin": true
+        },
+        "children": [
+          {
+            "attachedConfig": {},
+            "behaviour": {
+              "colspan": 6,
+              "isConfigEditable": false,
+              "listIndex": 0
+            },
+            "channelId": "section-gbLanding-footer",
+            "fieldId": "widget-16859768665-field-16969532822",
+            "hash": "mm8x6itpezq4l",
+            "hideExternalQuicklinks": false,
+            "hidePolicyQuicklinks": false,
+            "hideQuicklinksSupportTeam": false,
+            "isMandatory": false,
+            "isSupportNameDisplayOnFooter": false,
+            "isVisible": true,
+            "label": "section-gbLanding-footer",
+            "managerId": "widgetManager",
+            "manifestPath": "nexxe.gb-landing-footer",
+            "title": "GB LANDING FOOTER",
+            "type": "custom",
+            "validation": null,
+            "widgetId": "widget-16859768665"
+          }
+        ],
+        "defaultInputManifestPath": "nexxe.input",
+        "expressions": {},
+        "hash": "mm8x6itpswn73",
+        "managerId": "widgetManager",
+        "manifestPath": "standard-section",
+        "title": "footer title for testing",
+        "toolPlugins": [],
+        "type": "standard",
+        "widgetId": "widget-16859768665"
+      }
+    }
+  }
+]

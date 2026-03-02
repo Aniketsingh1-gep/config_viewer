@@ -1,0 +1,453 @@
+[
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attachedConfig": {
+        "config": {
+          "config": {
+            "icon": {
+              "cssClass": "",
+              "icon": "#icon_multiselect",
+              "isSVG": true
+            }
+          },
+          "manifestPath": "nexxe.nextgen-multiselect-popup",
+          "multiSelectPopupConfig": {
+            "cdsDataModelId": "cdsorganisation",
+            "childCountMapField": "childCount",
+            "conditionallyEnabledNodes": false,
+            "data": {
+              "fetchChildNodes": "getOrganizationChildNodes",
+              "getLevelOneData": "getOrganization",
+              "loadMore": "getOrganizationLoadMore",
+              "searchInTree": "getOrganizationSearch"
+            },
+            "descriptionMapField": "",
+            "displayNameMapField": "displayName",
+            "displayUptoLevel": 100,
+            "enableItextDetails": true,
+            "events": {
+              "closePopup": "",
+              "fetchChildNodes": "",
+              "getLevelOneData": "",
+              "getSelectedNodes": "",
+              "loadMore": "",
+              "searchInTree": ""
+            },
+            "getAllParentProperties": false,
+            "idMapField": "entityDetailCode",
+            "isAdvancedSearch": false,
+            "isParentChildSelection": true,
+            "isSelectAll": false,
+            "isSelectAllEnabled": true,
+            "levelMapField": "level",
+            "lvlOnetotalCountMapField": "totalCount",
+            "nameMapField": "entityName",
+            "onlyLeafNodeSelectable": false,
+            "pageSize": "10",
+            "parentIdMapField": "entityDetailCode",
+            "popupHeading": "rfx_businessUnitLabel",
+            "responseDataMapField": "masterRecords",
+            "searchEnabled": true,
+            "searchPlaceholder": "Search",
+            "selectedNodes": [],
+            "showChipPath": true,
+            "singleSelect": false
+          }
+        }
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "keyEventFocus": false
+      },
+      "behaviour": {
+        "colspan": "1",
+        "cssClasses": "",
+        "isDocked": false,
+        "listIndex": 9,
+        "rowIndex": "1",
+        "tabIndex": 0
+      },
+      "blurEvent": "",
+      "clickEvent": "",
+      "closePopupEvent": "",
+      "closePopupOnSaveEvent": "",
+      "data": "basicDetail.orgEntities",
+      "dataModelId": "documents",
+      "dataModelType": "Select API",
+      "deactivateEvent": "",
+      "events": {
+        "blur": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openPopup": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(documents.actions.editBasicDetails, true), false, true)",
+          "id": "lkcd0nurfhmy3",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705812410.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "documents.actions.editBasicDetails": {
+              "dataPath": "documents.actions.editBasicDetails",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "IfandElse(rfxGetHeaderData.isSupplier, IfandElse(documents.actions.showSelectedNodeForCBR, false, true), true)",
+          "id": "lr08o8ti7lkus",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705812410.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "documents.actions.showSelectedNodeForCBR": {
+              "dataPath": "documents.actions.showSelectedNodeForCBR",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "rfxGetHeaderData.isSupplier": {
+              "dataPath": "rfxGetHeaderData.isSupplier",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "message": {
+            "defaultOutput": "",
+            "expression": "IfandElse(IsBlank(documents.basicDetail.orgEntities),'rfx_pleaseSelectBusinessUnit','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705812410-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705812410.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.orgEntities": {
+                "dataPath": "documents.basicDetail.orgEntities",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "ngOnInit": {
+          "message": {
+            "defaultOutput": "",
+            "expression": "IfandElse(And(Equal(rfxGetHeaderData.isFirstTimeSaveClicked,true),IsBlank(documents.basicDetail.orgEntities)),'rfx_pleaseSelectBusinessUnit','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705812410-message-onInItExp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705812410.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.orgEntities": {
+                "dataPath": "documents.basicDetail.orgEntities",
+                "dataSrc": 0
+              },
+              "rfxGetHeaderData.isFirstTimeSaveClicked": {
+                "dataPath": "rfxGetHeaderData.isFirstTimeSaveClicked",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {
+          "message": {
+            "defaultOutput": "",
+            "expression": "IfandElse(IsBlank(documents.basicDetail.orgEntities),'rfx_pleaseSelectBusinessUnit','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705812410-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705812410.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.orgEntities": {
+                "dataPath": "documents.basicDetail.orgEntities",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16705791272-field-16705812410",
+      "focusEvent": "",
+      "hash": "mm90cgzb8kxdx",
+      "isMandatory": true,
+      "isVisible": true,
+      "label": "rfx_businessUnitLabel",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "CBR",
+      "ngModelChangeEvent": "",
+      "onModelChangeEvent": "",
+      "openCustomPopupEvent": "",
+      "openPopupEvent": "",
+      "subType": "",
+      "type": "hyperlink",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16705791272"
+    }
+  },
+  {
+    "capturedAt": "2026-03-02T10:00:24.962Z",
+    "config": {
+      "IButtonConfig": {
+        "attributes": {
+          "iButtonType": ""
+        },
+        "behaviour": {
+          "isVisible": false
+        },
+        "iButtonMsg": "",
+        "iTextHtml": "",
+        "iTextPosition": ""
+      },
+      "attachedConfig": {
+        "config": {
+          "config": {
+            "icon": {
+              "cssClass": "",
+              "icon": "#icon_multiselect",
+              "isSVG": true
+            }
+          },
+          "manifestPath": "nexxe.nextgen-multiselect-popup",
+          "multiSelectPopupConfig": {
+            "cdsDataModelId": "cdscategory",
+            "childCountMapField": "childCount",
+            "conditionallyEnabledNodes": false,
+            "data": {
+              "fetchChildNodes": "getCategoryChildNodes",
+              "getLevelOneData": "getCategories",
+              "loadMore": "getCategoryLoadMore",
+              "searchInTree": "getSearchCategory"
+            },
+            "descriptionMapField": "",
+            "displayNameMapField": "displayName",
+            "displayUptoLevel": 100,
+            "enableItextDetails": true,
+            "events": {
+              "closePopup": "",
+              "fetchChildNodes": "",
+              "getLevelOneData": "",
+              "getSelectedNodes": "",
+              "loadMore": "",
+              "searchInTree": ""
+            },
+            "getAllParentProperties": false,
+            "idMapField": "id",
+            "isAdvancedSearch": false,
+            "isParentChildSelection": true,
+            "isSelectAll": false,
+            "isSelectAllEnabled": true,
+            "levelMapField": "level",
+            "lvlOnetotalCountMapField": "totalCount",
+            "nameMapField": "name",
+            "onlyLeafNodeSelectable": false,
+            "pageSize": "10",
+            "parentIdMapField": "parentId",
+            "popupHeading": "rfx_categoryLabel",
+            "responseDataMapField": "masterRecords",
+            "searchEnabled": true,
+            "searchPlaceholder": "Search",
+            "selectedNodes": [],
+            "showChipPath": true,
+            "singleSelect": false
+          }
+        }
+      },
+      "attributes": {
+        "clickEventFocus": true,
+        "disable": false,
+        "isTooltipVisible": true,
+        "keyEventFocus": false
+      },
+      "behaviour": {
+        "colspan": "1",
+        "cssClasses": "",
+        "isDocked": false,
+        "listIndex": 7,
+        "rowIndex": "1",
+        "tabIndex": 0
+      },
+      "blurEvent": "",
+      "clickEvent": "",
+      "closePopupEvent": "",
+      "closePopupOnSaveEvent": "",
+      "data": "basicDetail.categories",
+      "dataModelId": "documents",
+      "dataModelType": "Select API",
+      "deactivateEvent": "",
+      "events": {
+        "blur": "",
+        "closePopup": "",
+        "closePopupOnSave": "",
+        "deactivate": "",
+        "focus": "",
+        "keydown": "",
+        "keyup": "",
+        "ngModelChange": "",
+        "onModelChange": "",
+        "openPopup": ""
+      },
+      "expressions": {
+        "disable": {
+          "defaultOutput": true,
+          "expression": "IfandElse(Equal(documents.actions.editBasicDetails, true), false, true)",
+          "id": "lkccxbgf0iwcg",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705810045.attributes.disable",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "numeric",
+          "params": {
+            "documents.actions.editBasicDetails": {
+              "dataPath": "documents.actions.editBasicDetails",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "isVisible": {
+          "defaultOutput": false,
+          "expression": "IfandElse(rfxGetHeaderData.isSupplier, IfandElse(documents.actions.showSelectedNodeForCBR, false, true), true)",
+          "id": "lr08l1wxmz3m8",
+          "output": {
+            "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705810045.isVisible",
+            "dataType": "widgetManager",
+            "setInType": "field"
+          },
+          "outputType": "any",
+          "params": {
+            "documents.actions.showSelectedNodeForCBR": {
+              "dataPath": "documents.actions.showSelectedNodeForCBR",
+              "dataSrc": 0,
+              "dataType": "string"
+            },
+            "rfxGetHeaderData.isSupplier": {
+              "dataPath": "rfxGetHeaderData.isSupplier",
+              "dataSrc": 0,
+              "dataType": "string"
+            }
+          }
+        },
+        "ngModelChange": {
+          "message": {
+            "defaultOutput": "",
+            "expression": "IfandElse(IsBlank(documents.basicDetail.categories),'rfx_pleaseSelectCategory','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705810045-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705810045.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.categories": {
+                "dataPath": "documents.basicDetail.categories",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "ngOnInit": {
+          "message": {
+            "defaultOutput": "",
+            "expression": "IfandElse(And(Equal(rfxGetHeaderData.isFirstTimeSaveClicked,true),IsBlank(documents.basicDetail.categories)),'rfx_pleaseSelectCategory','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705810045-message-onInItExp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705810045.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.categories": {
+                "dataPath": "documents.basicDetail.categories",
+                "dataSrc": 0
+              },
+              "rfxGetHeaderData.isFirstTimeSaveClicked": {
+                "dataPath": "rfxGetHeaderData.isFirstTimeSaveClicked",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDeactivate": {
+          "message": {
+            "defaultOutput": "",
+            "expression": "IfandElse(IsBlank(documents.basicDetail.categories),'rfx_pleaseSelectCategory','')",
+            "id": "widget-16705791272-widget-16705791272-field-16705810045-message-exp",
+            "output": {
+              "dataPath": "widgetManager.widget-16705791272.widget-16705791272-field-16705810045.validation.message",
+              "dataType": "widgetManager",
+              "setInType": "field"
+            },
+            "params": {
+              "documents.basicDetail.categories": {
+                "dataPath": "documents.basicDetail.categories",
+                "dataSrc": 0
+              }
+            }
+          }
+        },
+        "onDestroy": {}
+      },
+      "fieldId": "widget-16705791272-field-16705810045",
+      "focusEvent": "",
+      "hash": "mm90cgzbkfqsa",
+      "isMandatory": true,
+      "isVisible": true,
+      "label": "rfx_categoryLabel",
+      "managerId": "widgetManager",
+      "mandatoryValidationMessage": "",
+      "manifestPath": "CBR",
+      "ngModelChangeEvent": "",
+      "onModelChangeEvent": "",
+      "openCustomPopupEvent": "",
+      "openPopupEvent": "",
+      "subType": "",
+      "type": "hyperlink",
+      "validation": {
+        "message": ""
+      },
+      "validations": {},
+      "widgetId": "widget-16705791272"
+    }
+  }
+]
